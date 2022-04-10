@@ -1,5 +1,6 @@
 $main_color: white;
 $style-font: Allura;
+
 * {
     padding: 0;
     margin: 0;
@@ -24,29 +25,32 @@ header {
     width: 6rem;
 
     .nav__bar {
-        &__list{
-        li {
-            display: block;
-            position: relative;
-            margin: 20px;
-            margin-left: 0px;
-            height: 100%;
-            text-align: start;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-        a {
-            color:$main_color;
-            text-decoration: none;
-        }
-        a:hover {
-            border-color: $main_color;
-            border-bottom: solid;
-            border-bottom-width: 1px;
+        &__list {
+            li {
+                display: block;
+                position: relative;
+                margin: 20px;
+                margin-left: 0px;
+                height: 100%;
+                text-align: start;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+
+            a {
+                color: $main_color;
+                text-decoration: none;
+            }
+
+            a:hover {
+                border-color: $main_color;
+                border-bottom: solid;
+                border-bottom-width: 1px;
+            }
         }
     }
 }
-}
-.section__1 {
+
+.section1 {
     color: $main_color;
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(../images/er-min.jpg);
     background-position: 50% 20%;
@@ -54,12 +58,13 @@ header {
     height: 100vh;
     overflow: hidden;
     background-size: cover;
+
     &__content {
         width: 100%;
         margin: auto;
         margin-top: 2%;
 
-        .border-1 {
+        &--border1 {
             border-bottom: solid;
             padding: 2px;
             width: 50%;
@@ -69,7 +74,7 @@ header {
             position: relative;
         }
 
-        .text-1 {
+        &--text1 {
             font-family: $style-font;
             font-weight: normal;
             font-size: 9rem;
@@ -78,7 +83,7 @@ header {
             text-align: center;
         }
 
-        .u-text-1 {
+        &--text2 {
             margin: 20px auto 0;
             font-family: $style-font;
             font-weight: normal;
@@ -86,7 +91,7 @@ header {
             text-align: center;
         }
 
-        .border-2 {
+        &--border2 {
             border-bottom: solid;
             padding: 2px;
             width: 60%;
@@ -97,7 +102,7 @@ header {
     }
 }
 
-.section-2 {
+.section2 {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/living-1.jpg);
     color: $main_color;
     width: 100vw;
@@ -105,7 +110,7 @@ header {
     background-position: 50% 20%;
     background-size: cover;
 
-    .content-proyects {
+    &__content {
         .content-text {
             font-size: 3rem;
             font-family: $style-font;
@@ -183,7 +188,7 @@ header {
         position: absolute;
     }
 
-    .images-bedroom {
+    .bedroom {
         width: 100vw;
         height: 100vh;
         display: flex;
@@ -202,18 +207,19 @@ header {
             margin-left: 66vw;
         }
 
-        .bedroom-article-1 {
+        &__article1 {
             background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/dormitorio-1.jpg);
             color: $main_color;
             width: 100vw;
             height: 100vh;
             background-position: 50% 20%;
             background-size: cover;
-            .static-text-1 {
+
+            &--watermark {
                 display: grid;
                 grid-template-columns: 20% 10%;
                 padding-top: 1rem;
-    
+
                 h4 {
                     padding-left: 0rem;
                     font-family: $style-font;
@@ -222,24 +228,26 @@ header {
                     opacity: 0.8;
                     font-weight: 10;
                 }
-    
+
                 h5 {
                     margin-top: 1rem;
                     margin-left: 60vw;
                     font-size: 1.6rem;
                     opacity: 0.7;
                     position: relative;
-    
+
                 }
-    
+
                 a {
                     font-size: 2rem;
                     position: absolute;
                     padding-top: 0.3rem;
                     padding-left: 95vw;
+                    color:$main_color;
+                    text-decoration: none;
                 }
             }
-        
+
             .article-1 {
                 margin-top: 50vh;
                 width: 35rem;
@@ -249,7 +257,7 @@ header {
                 background-color: rgba(0, 0, 0, 0.4);
                 margin-left: 1%;
                 position: absolute;
-    
+
                 h2 {
                     height: 3rem;
                     font-family: $style-font;
@@ -258,7 +266,7 @@ header {
                     font-size: 4rem;
                     font-weight: 10;
                 }
-    
+
                 h3 {
                     padding: 22px 0px 0px 22px;
                     font-size: 1.3rem;
@@ -267,18 +275,19 @@ header {
             }
         }
 
-        .bedroom-article-2 {
+        &__article2 {
             background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/dormitorio-2.jpg);
             color: white;
             width: 100vw;
             height: 100vh;
             background-position: 50% 20%;
             background-size: cover;
-            .static-text-1 {
+
+            &--watermark {
                 display: grid;
                 grid-template-columns: 20% 10%;
                 padding-top: 1rem;
-    
+
                 h4 {
                     padding-left: 0rem;
                     font-family: $style-font;
@@ -287,24 +296,26 @@ header {
                     opacity: 0.8;
                     font-weight: 10;
                 }
-    
+
                 h5 {
                     margin-top: 1rem;
                     margin-left: 60vw;
                     font-size: 1.6rem;
                     opacity: 0.7;
                     position: relative;
-    
+
                 }
-    
+
                 a {
                     font-size: 2rem;
                     position: absolute;
                     padding-top: 0.3rem;
                     padding-left: 95vw;
+                    color:$main_color;
+                    text-decoration: none;
                 }
             }
-            
+
             .article-1 {
                 margin-top: 50vh;
                 width: 35rem;
@@ -314,7 +325,7 @@ header {
                 background-color: rgba(0, 0, 0, 0.4);
                 margin-left: 1%;
                 position: absolute;
-    
+
                 h2 {
                     height: 3rem;
                     font-family: $style-font;
@@ -323,7 +334,7 @@ header {
                     font-size: 4rem;
                     font-weight: 10;
                 }
-    
+
                 h3 {
                     padding: 22px 0px 0px 22px;
                     font-size: 1.3rem;
@@ -332,18 +343,19 @@ header {
             }
         }
 
-        .bedroom-article-3 {
+        &__article3 {
             background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/dormitorio-3.jpg);
             color: $main_color;
             width: 100vw;
             height: 100vh;
             background-position: 50% 50%;
             background-size: cover;
-            .static-text-1 {
+
+            &--watermark {
                 display: grid;
                 grid-template-columns: 20% 10%;
                 padding-top: 1rem;
-    
+
                 h4 {
                     padding-left: 0rem;
                     font-family: $style-font;
@@ -352,21 +364,23 @@ header {
                     opacity: 0.8;
                     font-weight: 10;
                 }
-    
+
                 h5 {
                     margin-top: 1rem;
                     margin-left: 60vw;
                     font-size: 1.6rem;
                     opacity: 0.7;
                     position: relative;
-    
+
                 }
-    
+
                 a {
                     font-size: 2rem;
                     position: absolute;
                     padding-top: 0.3rem;
                     padding-left: 95vw;
+                    color:$main_color;
+                    text-decoration: none;
                 }
             }
 
@@ -379,7 +393,7 @@ header {
                 background-color: rgba(0, 0, 0, 0.4);
                 margin-left: 1%;
                 position: absolute;
-    
+
                 h2 {
                     height: 3rem;
                     font-family: $style-font;
@@ -388,7 +402,7 @@ header {
                     font-size: 4rem;
                     font-weight: 10;
                 }
-    
+
                 h3 {
                     padding: 22px 0px 0px 22px;
                     font-size: 1.3rem;
@@ -398,7 +412,7 @@ header {
         }
     }
 
-    #living {
+    .living {
         .prev {
             width: 10%;
             top: 80vh;
@@ -412,18 +426,20 @@ header {
             left: 9vw;
             margin-left: 66vw;
         }
-        .living-article-1 {
+
+        &__article1 {
             background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/living-1.jpg);
             color: $main_color;
             width: 100vw;
             height: 100vh;
             background-position: 50% 20%;
             background-size: cover;
-            .static-text-1 {
+
+            &--watermark {
                 display: grid;
                 grid-template-columns: 20% 10%;
                 padding-top: 1rem;
-    
+
                 h4 {
                     padding-left: 0rem;
                     font-family: $style-font;
@@ -432,21 +448,23 @@ header {
                     opacity: 0.8;
                     font-weight: 10;
                 }
-    
+
                 h5 {
                     margin-top: 1rem;
                     margin-left: 60vw;
                     font-size: 1.6rem;
                     opacity: 0.7;
                     position: relative;
-    
+
                 }
-    
+
                 a {
                     font-size: 2rem;
                     position: absolute;
                     padding-top: 0.3rem;
                     padding-left: 95vw;
+                    color:$main_color;
+                    text-decoration: none;
                 }
             }
 
@@ -459,7 +477,7 @@ header {
                 background-color: rgba(0, 0, 0, 0.4);
                 margin-left: 1%;
                 position: absolute;
-    
+
                 h2 {
                     height: 3rem;
                     font-family: $style-font;
@@ -468,7 +486,7 @@ header {
                     font-size: 4rem;
                     font-weight: 10;
                 }
-    
+
                 h3 {
                     padding: 22px 0px 0px 22px;
                     font-size: 1.3rem;
@@ -477,18 +495,19 @@ header {
             }
         }
 
-        .living-article-2 {
+        &__article2 {
             background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/living-2.jpg);
             color: $main_color;
             width: 100vw;
             height: 100vh;
             background-position: 50% 20%;
             background-size: cover;
-            .static-text-1 {
+
+            &--watermark {
                 display: grid;
                 grid-template-columns: 20% 10%;
                 padding-top: 1rem;
-    
+
                 h4 {
                     padding-left: 0rem;
                     font-family: $style-font;
@@ -497,24 +516,26 @@ header {
                     opacity: 0.8;
                     font-weight: 10;
                 }
-    
+
                 h5 {
                     margin-top: 1rem;
                     margin-left: 60vw;
                     font-size: 1.6rem;
                     opacity: 0.7;
                     position: relative;
-    
+
                 }
-    
+
                 a {
                     font-size: 2rem;
                     position: absolute;
                     padding-top: 0.3rem;
                     padding-left: 95vw;
+                    color:$main_color;
+                    text-decoration: none;
                 }
             }
-            
+
             .article-1 {
                 margin-top: 50vh;
                 width: 35rem;
@@ -524,7 +545,7 @@ header {
                 background-color: rgba(0, 0, 0, 0.4);
                 margin-left: 1%;
                 position: absolute;
-    
+
                 h2 {
                     height: 3rem;
                     font-family: $style-font;
@@ -533,7 +554,7 @@ header {
                     font-size: 4rem;
                     font-weight: 10;
                 }
-    
+
                 h3 {
                     padding: 22px 0px 0px 22px;
                     font-size: 1.3rem;
@@ -542,18 +563,19 @@ header {
             }
         }
 
-        .living-article-3 {
+        &__article3 {
             background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/living-3.jpg);
             color: $main_color;
             width: 100vw;
             height: 100vh;
             background-position: 50% 20%;
             background-size: cover;
-            .static-text-1 {
+
+            &--watermark {
                 display: grid;
                 grid-template-columns: 20% 10%;
                 padding-top: 1rem;
-    
+
                 h4 {
                     padding-left: 0rem;
                     font-family: $style-font;
@@ -561,21 +583,23 @@ header {
                     opacity: 0.8;
                     font-weight: 10;
                 }
-    
+
                 h5 {
                     margin-top: 1rem;
                     margin-left: 60vw;
                     font-size: 1.6rem;
                     opacity: 0.7;
                     position: relative;
-    
+
                 }
-    
+
                 a {
                     font-size: 2rem;
                     position: absolute;
                     padding-top: 0.3rem;
                     padding-left: 95vw;
+                    color:$main_color;
+                    text-decoration: none;
                 }
             }
 
@@ -588,7 +612,7 @@ header {
                 background-color: rgba(0, 0, 0, 0.4);
                 margin-left: 1%;
                 position: absolute;
-    
+
                 h2 {
                     height: 3rem;
                     font-family: $style-font;
@@ -597,7 +621,7 @@ header {
                     font-size: 4rem;
                     font-weight: 10;
                 }
-    
+
                 h3 {
                     padding: 22px 0px 0px 22px;
                     font-size: 1.3rem;
@@ -607,7 +631,7 @@ header {
         }
     }
 
-    #kitchen {
+    .kitchen {
         .prev {
             width: 10%;
             top: 80vh;
@@ -621,18 +645,20 @@ header {
             left: 9vw;
             margin-left: 66vw;
         }
-        .kitchen-article-1 {
+
+        &__article1 {
             background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/kitchen-1.jpg);
             color: $main_color;
             width: 100vw;
             height: 100vh;
             background-position: 50% 20%;
             background-size: cover;
-            .static-text-1 {
+
+            &--watermark {
                 display: grid;
                 grid-template-columns: 20% 10%;
                 padding-top: 1rem;
-    
+
                 h4 {
                     padding-left: 0rem;
                     font-family: $style-font;
@@ -640,21 +666,23 @@ header {
                     opacity: 0.8;
                     font-weight: 10;
                 }
-    
+
                 h5 {
                     margin-top: 1rem;
                     margin-left: 60vw;
                     font-size: 1.6rem;
                     opacity: 0.7;
                     position: relative;
-    
+
                 }
-    
+
                 a {
                     font-size: 2rem;
                     position: absolute;
                     padding-top: 0.3rem;
                     padding-left: 95vw;
+                    color:$main_color;
+                    text-decoration: none;
                 }
             }
 
@@ -667,7 +695,7 @@ header {
                 background-color: rgba(0, 0, 0, 0.4);
                 margin-left: 1%;
                 position: absolute;
-    
+
                 h2 {
                     height: 3rem;
                     font-family: $style-font;
@@ -676,7 +704,7 @@ header {
                     font-size: 4rem;
                     font-weight: 10;
                 }
-    
+
                 h3 {
                     padding: 22px 0px 0px 22px;
                     font-size: 1.3rem;
@@ -685,18 +713,19 @@ header {
             }
         }
 
-        .kitchen-article-2 {
+        &__article2 {
             background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/kitchen-2.jpg);
             color: $main_color;
             width: 100vw;
             height: 100vh;
             background-position: 50% 20%;
             background-size: cover;
-            .static-text-1 {
+
+            &--watermark {
                 display: grid;
                 grid-template-columns: 20% 10%;
                 padding-top: 1rem;
-    
+
                 h4 {
                     padding-left: 0rem;
                     font-family: $style-font;
@@ -704,21 +733,23 @@ header {
                     opacity: 0.8;
                     font-weight: 10;
                 }
-    
+
                 h5 {
                     margin-top: 1rem;
                     margin-left: 60vw;
                     font-size: 1.6rem;
                     opacity: 0.7;
                     position: relative;
-    
+
                 }
-    
+
                 a {
                     font-size: 2rem;
                     position: absolute;
                     padding-top: 0.3rem;
                     padding-left: 95vw;
+                    color:$main_color;
+                    text-decoration: none;
                 }
             }
 
@@ -731,7 +762,7 @@ header {
                 background-color: rgba(0, 0, 0, 0.4);
                 margin-left: 1%;
                 position: absolute;
-    
+
                 h2 {
                     height: 3rem;
                     font-family: $style-font;
@@ -740,7 +771,7 @@ header {
                     font-size: 4rem;
                     font-weight: 10;
                 }
-    
+
                 h3 {
                     padding: 22px 0px 0px 22px;
                     font-size: 1.3rem;
@@ -749,18 +780,19 @@ header {
             }
         }
 
-        .kitchen-article-3 {
+        &__article3 {
             background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/kitchen-3.jpg);
             color: $main_color;
             width: 100vw;
             height: 100vh;
             background-position: 50% 20%;
             background-size: cover;
-            .static-text-1 {
+
+            &--watermark {
                 display: grid;
                 grid-template-columns: 20% 10%;
                 padding-top: 1rem;
-    
+
                 h4 {
                     padding-left: 0rem;
                     font-family: $style-font;
@@ -768,21 +800,23 @@ header {
                     opacity: 0.8;
                     font-weight: 10;
                 }
-    
+
                 h5 {
                     margin-top: 1rem;
                     margin-left: 60vw;
                     font-size: 1.6rem;
                     opacity: 0.7;
                     position: relative;
-    
+
                 }
-    
+
                 a {
                     font-size: 2rem;
                     position: absolute;
                     padding-top: 0.3rem;
                     padding-left: 95vw;
+                    color:$main_color;
+                    text-decoration: none;
                 }
             }
 
@@ -795,7 +829,7 @@ header {
                 background-color: rgba(0, 0, 0, 0.4);
                 margin-left: 1%;
                 position: absolute;
-    
+
                 h2 {
                     height: 3rem;
                     font-family: $style-font;
@@ -804,7 +838,7 @@ header {
                     font-size: 4rem;
                     font-weight: 10;
                 }
-    
+
                 h3 {
                     padding: 22px 0px 0px 22px;
                     font-size: 1.3rem;
@@ -815,16 +849,18 @@ header {
     }
 }
 
-.section-3 {
+.section3 {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/services.jpg);
     color: $main_color;
     width: 100vw;
     height: 100vh;
     background-position: 30%;
     background-size: cover;
-    .content-services {
+
+    &__content {
         display: grid;
         grid-template-columns: 40% 60%;
+
         div {
             h2 {
                 font-size: 8rem;
@@ -928,7 +964,8 @@ header {
     border-top: 1px;
     background-size: cover;
 
-    a, h4 {
+    a,
+    h4 {
         color: $main_color;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         text-decoration: none;
@@ -936,3 +973,555 @@ header {
         padding-top: 0.4rem;
     }
 }
+
+
+@media screen and (max-width:974px) {
+    .section-4 {
+        .background-black {
+            h6 {
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+    @media screen and (max-width:912px) {
+        .section2 {
+            &__content {
+                .category {
+                    display: inline-grid;
+                    grid-template-columns: 60%;
+                    padding-left: 30%;
+                    height: 70vh;
+
+                    .category-1 {
+                        margin: 0;
+                        margin-top: 1vh;
+                        width: 100%;
+                        height: 24vh;
+                        margin-bottom: 2vh;
+
+                        div {
+                            img {
+                                width: 50%;
+                                height: auto;
+                                margin: 0;
+                            }
+
+                            h3 {
+                                font-size: 4rem;
+                                margin-top: -1rem;
+                            }
+                        }
+                    }
+
+                    .category-2 {
+                        margin: 0;
+                        width: 100%;
+                        height: 24vh;
+                        margin-bottom: 2vh;
+
+                        div {
+                            img {
+                                width: 50%;
+                                height: auto;
+                                margin: 0;
+                            }
+
+                            h3 {
+                                font-size: 4rem;
+                                margin-top: -1rem;
+                            }
+                        }
+                    }
+
+                    .category-3 {
+                        margin: 0;
+                        width: 100%;
+                        height: 24vh;
+
+                        div {
+                            img {
+                                margin-top: -2rem;
+                                width: 50%;
+                                height: auto;
+                                margin: 0;
+                            }
+
+                            h3 {
+                                font-size: 4rem;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:820px) {
+    .section-4 {
+        .blackground-black {
+            h6 {
+                font-size: 1.4rem;
+            }
+
+            .social {
+                padding-top: 30rem;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:621px) {
+    .section-4 {
+        .background-black {
+            h6 {
+                font-size: 0.7rem;
+            }
+
+            .social {
+                margin-top: 35rem;
+                margin-left: 0.2rem;
+
+                .social-icons {
+                    img {
+                        margin: 1rem;
+                        width: 1.4rem;
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        .background-image {
+            h2 {
+                position: relative;
+                margin-top: 3rem;
+                width: 90%;
+                margin-left: 80%;
+                ;
+                font-family: allura;
+                font-size: 4rem;
+                z-index: 1
+            }
+        }
+    }
+}
+
+@media screen and (max-width:420px) {
+
+    /*header*/
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 4rem;
+        border-radius: 0%;
+        margin: 0;
+        padding: 0;
+
+        .nav__bar ul {
+            display: grid;
+            grid-template-columns: 9vh 12vh 12vh 12vh 11vh;
+        }
+    }
+
+    .section1 {
+        width: 100vw;
+        height: 100vh;
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(../images/index-tablet-mobile.jpg);
+
+        &__content {
+            margin-top: 10vh;
+
+            &--text2 {
+                font-size: 2rem;
+            }
+
+            &--text1 {
+                font-size: 5rem;
+            }
+        }
+    }
+
+    .section2 {
+        width: 100vw;
+        height: 100vh;
+
+        &__content {
+            width: 100%;
+
+            .content-text {
+                padding-top: 10vh;
+                font-size: 4rem;
+            }
+
+            .category {
+                display: inline-grid;
+                grid-template-columns: 60%;
+                grid-template-rows: 33% 33% 33%;
+                padding-left: 29%;
+                height: 100%;
+
+                .category-1 {
+                    margin: 0;
+                    margin-top: 1vh;
+                    width: 100%;
+                    height: 90%;
+                    margin-bottom: 2vh;
+
+                    div {
+                        img {
+                            width: 70%;
+                            height: auto;
+                            margin: 0;
+                        }
+
+                        h3 {
+                            font-size: 2.5rem;
+                            margin-top: -1rem;
+                        }
+                    }
+                }
+
+                .category-2 {
+                    margin: 0;
+                    width: 100%;
+                    height: 90%;
+
+                    div {
+                        img {
+                            width: 70%;
+                            height: auto;
+                            margin: 0;
+                        }
+
+                        h3 {
+                            font-size: 2.5rem;
+                            margin-top: -1rem;
+                        }
+                    }
+                }
+
+                .category-3 {
+                    margin: 0;
+                    width: 100%;
+                    height: 90%;
+
+                    div {
+                        img {
+                            margin-top: -2rem;
+                            width: 70%;
+                            height: auto;
+                            margin: 0;
+                        }
+
+                        h3 {
+                            font-size: 2.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .bedroom {
+        width: 100vw;
+        &__article1 {
+            width: 100%;
+            &--watermark {
+                h4 {
+                    margin-top: 3rem;
+                    font-size: 3rem!important;
+                }
+
+                h5 {
+                    margin-top: 4rem!important;
+                    margin-left:50vw!important;
+                    font-size: 1rem!important;
+                }
+
+                a {
+                    margin: 0;
+                    margin-top: 2rem;
+                    padding-left: 90vw!important;
+                }
+            }
+        } 
+        &__article2 {
+            width: 100%;
+            &--watermark {
+                h4 {
+                    margin-top: 3rem;
+                    font-size: 3rem!important;
+                }
+
+                h5 {
+                    margin-top: 4rem!important;
+                    margin-left:50vw!important;
+                    font-size: 1rem!important;
+                }
+
+                a {
+                    margin: 0;
+                    margin-top: 2rem;
+                    padding-left: 90vw!important;
+                }
+            }
+        }
+        
+        &__article3 {
+            width: 100%;
+            &--watermark {
+                h4 {
+                    margin-top: 3rem;
+                    font-size: 3rem!important;
+                }
+
+                h5 {
+                    margin-top: 4rem!important;
+                    margin-left:50vw!important;
+                    font-size: 1rem!important;
+                }
+
+                a {
+                    margin: 0;
+                    margin-top: 2rem;
+                    padding-left: 90vw!important;
+                }
+            }
+        }
+    }
+    .living {
+        width: 100vw;
+        &__article1 {
+            width: 100%;
+            &--watermark {
+                h4 {
+                    margin-top: 3rem;
+                    font-size: 3rem!important;
+                }
+
+                h5 {
+                    margin-top: 4rem!important;
+                    margin-left:50vw!important;
+                    font-size: 1rem!important;
+                }
+
+                a {
+                    margin: 0;
+                    margin-top: 2rem;
+                    padding-left: 90vw!important;
+                }
+            }
+        } 
+        &__article2 {
+            width: 100%;
+            &--watermark {
+                h4 {
+                    margin-top: 3rem;
+                    font-size: 3rem!important;
+                }
+
+                h5 {
+                    margin-top: 4rem!important;
+                    margin-left:50vw!important;
+                    font-size: 1rem!important;
+                }
+
+                a {
+                    margin: 0;
+                    margin-top: 2rem;
+                    padding-left: 90vw!important;
+                }
+            }
+        }
+        
+        &__article3 {
+            width: 100%;
+            &--watermark {
+                h4 {
+                    margin-top: 3rem;
+                    font-size: 3rem!important;
+                }
+
+                h5 {
+                    margin-top: 4rem!important;
+                    margin-left:50vw!important;
+                    font-size: 1rem!important;
+                }
+
+                a {
+                    margin: 0;
+                    margin-top: 2rem;
+                    padding-left: 90vw!important;
+                }
+            }
+        }
+    }
+    .kitchen {
+        width: 100vw;
+        &__article1 {
+            width: 100%;
+            &--watermark {
+                h4 {
+                    margin-top: 3rem;
+                    font-size: 3rem!important;
+                }
+
+                h5 {
+                    margin-top: 4rem!important;
+                    margin-left:50vw!important;
+                    font-size: 1rem!important;
+                }
+
+                a {
+                    margin: 0;
+                    margin-top: 2rem;
+                    padding-left: 90vw!important;
+                }
+            }
+        } 
+        &__article2 {
+            width: 100%;
+            &--watermark {
+                h4 {
+                    margin-top: 3rem;
+                    font-size: 3rem!important;
+                }
+
+                h5 {
+                    margin-top: 4rem!important;
+                    margin-left:50vw!important;
+                    font-size: 1rem!important;
+                }
+
+                a {
+                    margin: 0;
+                    margin-top: 2rem;
+                    padding-left: 90vw!important;
+                }
+            }
+        }
+        
+        &__article3 {
+            width: 100%;
+            &--watermark {
+                h4 {
+                    margin-top: 3rem;
+                    font-size: 3rem!important;
+                }
+
+                h5 {
+                    margin-top: 4rem!important;
+                    margin-left:50vw!important;
+                    font-size: 1rem!important;
+                }
+
+                a {
+                    margin: 0;
+                    margin-top: 2rem;
+                    padding-left: 90vw!important;
+                }
+            }
+        }
+    }
+    .section3 {
+        width: 100vw;
+        height: 100vh;
+
+        &__content- div h2 {
+            margin-top: 5vh;
+            font-size: 5rem;
+        }
+
+        .info {
+            margin: 0;
+            margin-top: 13rem;
+            width: 100%;
+            height: 60%;
+
+        }
+
+        /*section-4*/
+        .section-4 {
+            width: 100vw;
+            height: 100vh;
+            grid-template-columns: 100vw;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .background-image {
+            color: white;
+            width: auto;
+            height: 70vh;
+            background-position: 50% 50%;
+            margin-top: -20vh;
+        }
+
+        .background-image h2 {
+            position: absolute;
+            margin-top: 60%;
+            width: 90%;
+            margin-left: 10%;
+            ;
+            font-family: allura;
+            font-size: 4rem;
+            z-index: 1
+        }
+
+        .background-black h6 {
+            position: absolute;
+            margin: 0;
+            padding-top: 4rem;
+            padding-left: 10vw;
+            width: 90vw;
+            text-align: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 0.7rem;
+            color: white;
+            z-index: 1;
+        }
+
+        .social {
+            width: 100vw;
+            align-items: center;
+            margin: 0;
+            padding-top: 40vh;
+        }
+
+        .social-icons img {
+            margin: 1rem;
+            width: 1.4rem;
+            height: auto;
+        }
+
+        /*footer*/
+        .footer,
+        h4 {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
