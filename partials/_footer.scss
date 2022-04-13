@@ -1,0 +1,19 @@
+.footer {
+    margin: 0;
+    background-color: black;
+    width: 100vw;
+    height: auto;
+    opacity: 0.9;
+    border: solid;
+    border-top: 1px;
+    background-size: cover;
+
+    a,
+    h4 {
+        color: $main_color;
+        font-family: $style-font-second;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 0.4rem;
+    }
+}

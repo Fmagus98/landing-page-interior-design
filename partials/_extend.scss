@@ -1,0 +1,52 @@
+%watermark {
+    display: grid;
+    grid-template-columns: 20% 10%;
+    padding-top: 1rem;
+}
+
+%articles {
+    color: $main_color;
+    width: 100vw;
+    height: 100vh;
+    background-position: 50% 20%;
+    background-size: cover;
+}
+
+%prev {
+    width: 10%;
+    top: 80vh;
+    left: 9vw;
+    margin-left: 60vw;
+}
+
+%next {
+    width: 10%;
+    top: 80vh;
+    left: 9vw;
+    margin-left: 66vw;
+}
+
+%articleh3w {
+    padding-left: 0rem;
+    font-family: $style-font;
+    font-size: 5rem;
+    opacity: 0.8;
+    font-weight: 10;
+}
+
+%articleh4w {
+    margin-top: 1rem;
+    margin-left: 60vw;
+    font-size: 1.6rem;
+    opacity: 0.7;
+    position: relative;
+}
+
+%article-a {
+    font-size: 2rem;
+    position: absolute;
+    padding-top: 0.3rem;
+    padding-left: 95vw;
+    color: $main_color;
+    text-decoration: none;
+}

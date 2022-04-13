@@ -1,0 +1,470 @@
+#content-article {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+
+    #bedroom,
+    #living,
+    #kitchen {
+        position: absolute;
+    }
+
+    .bedroom {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+
+        .prev {
+            @extend %prev;
+        }
+
+        .next {
+            @extend %next;
+        }
+
+        &__article1 {
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/dormitorio-1.avif);
+            @extend %articles;
+
+            &--watermark {
+                @extend %watermark;
+
+                h3 {
+                    @extend %articleh3w;
+                }
+
+                h4 {
+                    @extend %articleh4w;
+                }
+
+                a {
+                    @extend %article-a;
+                }
+            }
+
+            &--text {
+                margin-top: 50vh;
+                width: 35rem;
+                height: 11rem;
+                border-color: $main_color;
+                border-radius: 15px;
+                background-color: rgba(0, 0, 0, 0.4);
+                margin-left: 1%;
+                position: absolute;
+
+                h2 {
+                    height: 3rem;
+                    font-family: $style-font;
+                    text-align: left;
+                    padding-left: 2rem;
+                    font-size: 4rem;
+                    font-weight: 10;
+                }
+
+                h3 {
+                    padding: 22px 0px 0px 22px;
+                    font-size: 1.3rem;
+                    font-family: $style-font-second; 
+                }
+            }
+        }
+
+        &__article2 {
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/dormitorio-2.avif);
+            @extend %articles;
+
+
+            &--watermark {
+                @extend %watermark;
+
+                h3 {
+                    @extend %articleh3w;
+                }
+
+                h4 {
+                    @extend %articleh4w;
+                }
+
+                a {
+                    @extend %article-a;
+                }
+            }
+
+            &--text {
+                margin-top: 50vh;
+                width: 35rem;
+                height: 11rem;
+                border-color: $main_color;
+                border-radius: 15px;
+                background-color: rgba(0, 0, 0, 0.4);
+                margin-left: 1%;
+                position: absolute;
+
+                h2 {
+                    height: 3rem;
+                    font-family: $style-font;
+                    text-align: left;
+                    padding-left: 2rem;
+                    font-size: 4rem;
+                    font-weight: 10;
+                }
+
+                h3 {
+                    padding: 22px 0px 0px 22px;
+                    font-size: 1.3rem;
+                    font-family: $style-font-second;
+                }
+            }
+        }
+
+        &__article3 {
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/dormitorio-3.avif);
+            @extend %articles;
+
+            &--watermark {
+                @extend %watermark;
+
+                h3 {
+                    @extend %articleh3w;
+                    
+                }
+
+                h4 {
+                    @extend %articleh4w;
+                }
+
+                a {
+                    @extend %article-a;
+                }
+            }
+
+            &--text {
+                margin-top: 50vh;
+                width: 35rem;
+                height: 11rem;
+                border-color: $main_color;
+                border-radius: 15px;
+                background-color: rgba(0, 0, 0, 0.4);
+                margin-left: 1%;
+                position: absolute;
+
+                h2 {
+                    height: 3rem;
+                    font-family: $style-font;
+                    text-align: left;
+                    padding-left: 2rem;
+                    font-size: 4rem;
+                    font-weight: 10;
+                }
+
+                h3 {
+                    padding: 22px 0px 0px 22px;
+                    font-size: 1.3rem;
+                    font-family: $style-font-second; }
+            }
+        }
+    }
+
+    .living {
+        .prev {
+            @extend %prev;
+        }
+
+        .next {
+            @extend %next;
+        }
+
+        &__article1 {
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/living-1.avif);
+            @extend %articles;
+
+            &--watermark {
+                @extend %watermark;
+
+                h3 {
+                    @extend %articleh3w;
+                }
+
+                h4 {
+                    @extend %articleh4w;
+                }
+
+                a {
+                    @extend %article-a;
+                }
+            }
+
+            &--text{
+                margin-top: 50vh;
+                width: 35rem;
+                height: 11rem;
+                border-color: $main_color;
+                border-radius: 15px;
+                background-color: rgba(0, 0, 0, 0.4);
+                margin-left: 1%;
+                position: absolute;
+
+                h2 {
+                    height: 3rem;
+                    font-family: $style-font;
+                    text-align: left;
+                    padding-left: 2rem;
+                    font-size: 4rem;
+                    font-weight: 10;
+                }
+
+                h3 {
+                    padding: 22px 0px 0px 22px;
+                    font-size: 1.3rem;
+                    font-family: $style-font-second;
+                }
+            }
+        }
+
+        &__article2 {
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/living-2.avif);
+            @extend %articles;
+
+            &--watermark {
+                @extend %watermark;
+
+                h3 {
+                    @extend %articleh3w;
+                }
+
+                h4 {
+                    @extend %articleh4w;
+                }
+
+                a {
+                    @extend %article-a;
+                }
+            }
+
+            &--text{
+                margin-top: 50vh;
+                width: 35rem;
+                height: 11rem;
+                border-color: $main_color;
+                border-radius: 15px;
+                background-color: rgba(0, 0, 0, 0.4);
+                margin-left: 1%;
+                position: absolute;
+
+                h2 {
+                    height: 3rem;
+                    font-family: $style-font;
+                    text-align: left;
+                    padding-left: 2rem;
+                    font-size: 4rem;
+                    font-weight: 10;
+                }
+
+                h3 {
+                    padding: 22px 0px 0px 22px;
+                    font-size: 1.3rem;
+                    font-family: $style-font-second;
+                }
+            }
+        }
+
+        &__article3 {
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/living-3.avif);
+            @extend %articles;
+
+            &--watermark {
+                @extend %watermark;
+
+                h3 {
+                    @extend %articleh3w;
+                }
+
+                h4 {
+                    @extend %articleh4w;
+                }
+
+                a {
+                    @extend %article-a;
+                }
+            }
+
+            &--text {
+                margin-top: 50vh;
+                width: 35rem;
+                height: 11rem;
+                border-color: $main_color;
+                border-radius: 15px;
+                background-color: rgba(0, 0, 0, 0.4);
+                margin-left: 1%;
+                position: absolute;
+
+                h2 {
+                    height: 3rem;
+                    font-family: $style-font;
+                    text-align: left;
+                    padding-left: 2rem;
+                    font-size: 4rem;
+                    font-weight: 10;
+                }
+
+                h3 {
+                    padding: 22px 0px 0px 22px;
+                    font-size: 1.3rem;
+                    font-family: $style-font-second;
+                }
+            }
+        }
+    }
+
+    .kitchen {
+        .prev {
+            @extend %prev;
+        }
+
+        .next {
+            @extend %next;
+        }
+
+        &__article1 {
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/kitchen-1.avif);
+            @extend %articles;
+
+            &--watermark {
+                @extend %watermark;
+
+                h3 {
+                    @extend %articleh3w;
+                }
+
+                h4 {
+                    @extend %articleh4w;
+                }
+
+                a {
+                    @extend %article-a;
+                }
+            }
+
+            &--text {
+                margin-top: 50vh;
+                width: 35rem;
+                height: 11rem;
+                border-color: $main_color;
+                border-radius: 15px;
+                background-color: rgba(0, 0, 0, 0.4);
+                margin-left: 1%;
+                position: absolute;
+
+                h2 {
+                    height: 3rem;
+                    font-family: $style-font;
+                    text-align: left;
+                    padding-left: 2rem;
+                    font-size: 4rem;
+                    font-weight: 10;
+                }
+
+                h3 {
+                    padding: 22px 0px 0px 22px;
+                    font-size: 1.3rem;
+                    font-family: $style-font-second;
+                }
+            }
+        }
+
+        &__article2 {
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/kitchen-2.avif);
+            @extend %articles;
+
+            &--watermark {
+                @extend %watermark;
+
+                h3 {
+                    @extend %articleh3w;
+                }
+
+                h4 {
+                    @extend %articleh4w;
+                }
+
+                a {
+                    @extend %article-a;
+                }
+            }
+
+            &--text {
+                margin-top: 50vh;
+                width: 35rem;
+                height: 11rem;
+                border-color: $main_color;
+                border-radius: 15px;
+                background-color: rgba(0, 0, 0, 0.4);
+                margin-left: 1%;
+                position: absolute;
+
+                h2 {
+                    height: 3rem;
+                    font-family: $style-font;
+                    text-align: left;
+                    padding-left: 2rem;
+                    font-size: 4rem;
+                    font-weight: 10;
+                }
+
+                h3 {
+                    padding: 22px 0px 0px 22px;
+                    font-size: 1.3rem;
+                    font-family: $style-font-second;
+                }
+            }
+        }
+
+        &__article3 {
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/kitchen-3.avif);
+            @extend %articles;
+
+            &--watermark {
+                @extend %watermark;
+
+                h3 {
+                    @extend %articleh3w;
+                }
+
+                h4 {
+                    @extend %articleh4w;
+                }
+
+                a {
+                    @extend %article-a;
+                }
+            }
+
+            &--text{
+                margin-top: 50vh;
+                width: 35rem;
+                height: 11rem;
+                border-color: $main_color;
+                border-radius: 15px;
+                background-color: rgba(0, 0, 0, 0.4);
+                margin-left: 1%;
+                position: absolute;
+
+                h2 {
+                    height: 3rem;
+                    font-family: $style-font;
+                    text-align: left;
+                    padding-left: 2rem;
+                    font-size: 4rem;
+                    font-weight: 10;
+                }
+
+                h3 {
+                    padding: 22px 0px 0px 22px;
+                    font-size: 1.3rem;
+                    font-family:$style-font-second;     
+                }
+            }
+        }
+    }
+}

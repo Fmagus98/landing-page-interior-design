@@ -1,0 +1,38 @@
+header {
+    position: fixed;
+    top: 20%;
+    left: -1%;
+    font-size: 15px;
+    list-style-type: none;
+    text-align: none;
+    white-space: nowrap;
+    z-index: 1;
+    background-color: rgba(19, 9, 9, 0.4);
+    border-radius: 9px;
+    width: 6rem;
+
+    .nav__bar {
+        &__list {
+            li {
+                display: block;
+                position: relative;
+                margin: 20px;
+                margin-left: 0px;
+                height: 100%;
+                text-align: start;
+                font-family: $style-font-second;
+            }
+
+            a {
+                color: $main_color;
+                text-decoration: none;
+            }
+
+            a:hover {
+                border-color: $main_color;
+                border-bottom: solid;
+                border-bottom-width: 1px;
+            }
+        }
+    }
+}

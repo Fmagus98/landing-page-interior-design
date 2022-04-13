@@ -1,0 +1,52 @@
+
+.section1 {
+    color: $main_color;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(../images/index.avif);
+    background-position: 50% 20%;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+
+    &__content {
+        width: 100%;
+        margin: auto;
+        margin-top: 2%;
+
+        &--border1 {
+            border-bottom: solid;
+            padding: 2px;
+            width: 50%;
+            height: 20%;
+            margin: auto;
+            padding-top: 5%;
+            position: relative;
+        }
+
+        &--text1 {
+            font-family: $style-font;
+            font-weight: normal;
+            font-size: 9rem;
+            font-size-adjust: inherit;
+            margin: 20px auto 0;
+            text-align: center;
+        }
+
+        &--text2 {
+            margin: 20px auto 0;
+            font-family: $style-font;
+            font-weight: normal;
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        &--border2 {
+            border-bottom: solid;
+            padding: 2px;
+            width: 60%;
+            margin: auto;
+            padding-top: 7vh;
+            position: relative;
+        }
+    }
+}
