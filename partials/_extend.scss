@@ -26,6 +26,17 @@
     margin-left: 66vw;
 }
 
+%article--text {
+    bottom: 0.3rem;
+    left: 0.3rem;
+    width: 35rem;
+    height: 11rem;
+    border-color: $main_color;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+}
+
 %articleh3w {
     padding-left: 0rem;
     font-family: $style-font;
@@ -35,8 +46,8 @@
 }
 
 %articleh4w {
-    margin-top: 1rem;
-    margin-left: 60vw;
+    top: 1rem;
+    left: 60vw;
     font-size: 1.6rem;
     opacity: 0.7;
     position: relative;
@@ -45,8 +56,10 @@
 %article-a {
     font-size: 2rem;
     position: absolute;
-    padding-top: 0.3rem;
-    padding-left: 95vw;
+    top: 0.3rem;
+    left: 95vw;
     color: $main_color;
     text-decoration: none;
+    opacity: 0.7;
+    width: 2rem;
 }

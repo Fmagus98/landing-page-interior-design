@@ -88,7 +88,7 @@ header {
   z-index: 1;
   background-color: rgba(19, 9, 9, 0.4);
   border-radius: 9px;
-  width: 6rem;
+  width: 9rem;
 }
 
 header .nav__bar__list li {
@@ -1273,4 +1273,4 @@ header .nav__bar__list a:hover {
 h4 {
   font-size: 0.8rem;
 }
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main2.css.map */

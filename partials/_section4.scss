@@ -30,26 +30,29 @@
         width: 100%;
         height: 100vh;
         opacity: 0.6;
-
+        position:relative;
         h3 {
+            display:block;
             position: absolute;
-            margin-top: 13rem;
-            margin-left: 1rem;
-            width: 40%;
+            top: 25vh;
+            left: 1rem;
+            width: 70%;
             text-align: left;
             font-family: $style-font-second;
-            font-size: 12px;
+            font-size: 1.5vw;
             color: $main_color;
             z-index: 1;
         }
 
         .social {
-            margin: 33rem auto auto 2rem;
+            position:absolute;
+            margin-top:1rem;
+            top: 80vh;
+            width:30vw;
 
             &-icons img {
                 margin: 1rem;
-                width: 2rem;
-                height: 2rem;
+                width: 3vw;
             }
         }
     }

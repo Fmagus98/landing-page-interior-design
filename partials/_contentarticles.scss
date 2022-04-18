@@ -1,5 +1,5 @@
 #content-article {
-    position: relative;
+    display: block;
     width: 100vw;
     height: 100vh;
     display: none;
@@ -44,14 +44,7 @@
             }
 
             &--text {
-                margin-top: 50vh;
-                width: 35rem;
-                height: 11rem;
-                border-color: $main_color;
-                border-radius: 15px;
-                background-color: rgba(0, 0, 0, 0.4);
-                margin-left: 1%;
-                position: absolute;
+                @extend %article--text;
 
                 h2 {
                     height: 3rem;
@@ -65,7 +58,11 @@
                 h3 {
                     padding: 22px 0px 0px 22px;
                     font-size: 1.3rem;
-                    font-family: $style-font-second; 
+                    font-family: $style-font-second;
+                }
+
+                p {
+                    display: none;
                 }
             }
         }
@@ -92,14 +89,7 @@
             }
 
             &--text {
-                margin-top: 50vh;
-                width: 35rem;
-                height: 11rem;
-                border-color: $main_color;
-                border-radius: 15px;
-                background-color: rgba(0, 0, 0, 0.4);
-                margin-left: 1%;
-                position: absolute;
+                @extend %article--text;
 
                 h2 {
                     height: 3rem;
@@ -115,6 +105,10 @@
                     font-size: 1.3rem;
                     font-family: $style-font-second;
                 }
+
+                p {
+                    display: none;
+                }
             }
         }
 
@@ -127,7 +121,7 @@
 
                 h3 {
                     @extend %articleh3w;
-                    
+
                 }
 
                 h4 {
@@ -140,14 +134,7 @@
             }
 
             &--text {
-                margin-top: 50vh;
-                width: 35rem;
-                height: 11rem;
-                border-color: $main_color;
-                border-radius: 15px;
-                background-color: rgba(0, 0, 0, 0.4);
-                margin-left: 1%;
-                position: absolute;
+                @extend %article--text;
 
                 h2 {
                     height: 3rem;
@@ -161,7 +148,12 @@
                 h3 {
                     padding: 22px 0px 0px 22px;
                     font-size: 1.3rem;
-                    font-family: $style-font-second; }
+                    font-family: $style-font-second;
+                }
+
+                p {
+                    display: none;
+                }
             }
         }
     }
@@ -195,15 +187,8 @@
                 }
             }
 
-            &--text{
-                margin-top: 50vh;
-                width: 35rem;
-                height: 11rem;
-                border-color: $main_color;
-                border-radius: 15px;
-                background-color: rgba(0, 0, 0, 0.4);
-                margin-left: 1%;
-                position: absolute;
+            &--text {
+                @extend %article--text;
 
                 h2 {
                     height: 3rem;
@@ -218,6 +203,9 @@
                     padding: 22px 0px 0px 22px;
                     font-size: 1.3rem;
                     font-family: $style-font-second;
+                }
+                p{
+                    display:none;
                 }
             }
         }
@@ -242,15 +230,8 @@
                 }
             }
 
-            &--text{
-                margin-top: 50vh;
-                width: 35rem;
-                height: 11rem;
-                border-color: $main_color;
-                border-radius: 15px;
-                background-color: rgba(0, 0, 0, 0.4);
-                margin-left: 1%;
-                position: absolute;
+            &--text {
+                @extend %article--text;
 
                 h2 {
                     height: 3rem;
@@ -265,6 +246,9 @@
                     padding: 22px 0px 0px 22px;
                     font-size: 1.3rem;
                     font-family: $style-font-second;
+                }
+                p{
+                    display:none;
                 }
             }
         }
@@ -290,14 +274,7 @@
             }
 
             &--text {
-                margin-top: 50vh;
-                width: 35rem;
-                height: 11rem;
-                border-color: $main_color;
-                border-radius: 15px;
-                background-color: rgba(0, 0, 0, 0.4);
-                margin-left: 1%;
-                position: absolute;
+                @extend %article--text;
 
                 h2 {
                     height: 3rem;
@@ -312,6 +289,9 @@
                     padding: 22px 0px 0px 22px;
                     font-size: 1.3rem;
                     font-family: $style-font-second;
+                }
+                p{
+                    display:none;
                 }
             }
         }
@@ -347,14 +327,7 @@
             }
 
             &--text {
-                margin-top: 50vh;
-                width: 35rem;
-                height: 11rem;
-                border-color: $main_color;
-                border-radius: 15px;
-                background-color: rgba(0, 0, 0, 0.4);
-                margin-left: 1%;
-                position: absolute;
+                @extend %article--text;
 
                 h2 {
                     height: 3rem;
@@ -369,6 +342,9 @@
                     padding: 22px 0px 0px 22px;
                     font-size: 1.3rem;
                     font-family: $style-font-second;
+                }
+                p{
+                    display:none;
                 }
             }
         }
@@ -394,14 +370,7 @@
             }
 
             &--text {
-                margin-top: 50vh;
-                width: 35rem;
-                height: 11rem;
-                border-color: $main_color;
-                border-radius: 15px;
-                background-color: rgba(0, 0, 0, 0.4);
-                margin-left: 1%;
-                position: absolute;
+                @extend %article--text;
 
                 h2 {
                     height: 3rem;
@@ -416,6 +385,9 @@
                     padding: 22px 0px 0px 22px;
                     font-size: 1.3rem;
                     font-family: $style-font-second;
+                }
+                p{
+                    display:none;
                 }
             }
         }
@@ -440,15 +412,8 @@
                 }
             }
 
-            &--text{
-                margin-top: 50vh;
-                width: 35rem;
-                height: 11rem;
-                border-color: $main_color;
-                border-radius: 15px;
-                background-color: rgba(0, 0, 0, 0.4);
-                margin-left: 1%;
-                position: absolute;
+            &--text {
+                @extend %article--text;
 
                 h2 {
                     height: 3rem;
@@ -462,7 +427,10 @@
                 h3 {
                     padding: 22px 0px 0px 22px;
                     font-size: 1.3rem;
-                    font-family:$style-font-second;     
+                    font-family: $style-font-second;
+                }
+                p{
+                    display:none;
                 }
             }
         }
