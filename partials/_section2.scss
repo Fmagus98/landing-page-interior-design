@@ -9,10 +9,9 @@
 
     &__content {
         .content-text {
-            font-size: 3rem;
             font-family: $style-font;
             font-weight: normal;
-            font-size: 7rem;
+            font-size: 12vw;
             text-align: center;
             padding-top: 2rem;
             padding-bottom: 3rem;
@@ -45,7 +44,7 @@
             .category-3 {
                 img {
                     padding-top: 1rem;
-                    margin-bottom: 2rem;
+                    padding-top: 1rem;
                 }
             }
 
@@ -61,11 +60,11 @@
 
                 div {
                     img {
-                        height: 13rem;
+                        height: 20vh;
                     }
 
                     h3 {
-                        font-size: 4rem;
+                        font-size: 7vw;
                     }
                 }
             }

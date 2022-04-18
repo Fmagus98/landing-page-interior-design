@@ -1,3 +1,46 @@
+@media screen and (max-width:850px) {
+    .section2 {
+        &__content {
+            .category {
+                a{
+                    height: 27vh;
+                }
+                .category-1 {
+                    div {
+                        img {
+                            width: 8rem;
+                            height: auto;
+                            margin: 0;
+                        }
+                    }
+                }
+
+                .category-2 {
+                    div {
+                        img {
+                            width: 8rem;
+                            height: auto;
+                            margin: 0;
+                        }
+                    }
+                }
+
+                .category-3 {
+                    div {
+                        img {
+                            margin-top: -2rem;
+                            padding-bottom:1rem;
+                            width: 8rem;
+                            height: auto;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width:420px) {
 
     /*header*/
@@ -115,21 +158,24 @@
             }
         }
     }
+
     .prev {
-        position:absolute;
-        top:7vh!important;
-        left:3vw!important;
-        margin:0!important;
+        position: absolute;
+        top: 7vh !important;
+        left: 3vw !important;
+        margin: 0 !important;
     }
 
     .next {
-        position:absolute;
-        top:7vh!important;
-        left:20vw!important;
+        position: absolute;
+        top: 7vh !important;
+        left: 20vw !important;
     }
+
     #content-article {
         height: 100vh;
         background-color: rgba($color: #000000, $alpha: 0.8);
+
         .bedroom {
             height: 40vh;
             margin-top: 30vh;
@@ -156,6 +202,7 @@
                 &--text {
                     width: 10rem;
                     height: 2rem;
+
                     h2 {
                         display: none;
                     }
@@ -170,9 +217,10 @@
                     }
                 }
 
-                &--text:hover{
+                &--text:hover {
                     width: 23rem;
-                    height:6rem;
+                    height: 6rem;
+
                     h2 {
                         display: block;
                         font-family: $style-font;
@@ -183,599 +231,631 @@
                     }
 
                     h3 {
-                        display:block;
+                        display: block;
                         font-size: 0.8rem;
                         font-family: $style-font-second;
-                        margin:0;
-                        padding:0;
-                        padding-left:1rem;                        
+                        margin: 0;
+                        padding: 0;
+                        padding-left: 1rem;
                     }
-                    p{
-                        display:none;
-                    }
-                }
-            }
-                &__article2 {
-                    height: 40vh;
 
-                    &--watermark {
-                        h3 {
-                            display: none;
-                        }
-    
-                        h4 {
-                            display: none;
-                        }
-    
-                        a {
-                            margin: 0;
-                            top: 1rem;
-                            left: 90vw;
-                        }
-                    }
-    
-                    &--text {
-                        width: 10rem;
-                        height: 2rem;
-                        h2 {
-                            display: none;
-                        }
-    
-                        h3 {
-                            display: none;
-                        }
-    
-                        p {
-                            display: block;
-                            text-align: center;
-                        }
-                    }
-    
-                    &--text:hover{
-                        width: 23rem;
-                        height:6rem;
-                        h2 {
-                            display: block;
-                            font-family: $style-font;
-                            text-align: left;
-                            padding-left: 2rem;
-                            font-size: 3rem;
-                            font-weight: 10;
-                        }
-    
-                        h3 {
-                            display:block;
-                            font-size: 0.8rem;
-                            font-family: $style-font-second;
-                            margin:0;
-                            padding:0;
-                            padding-left:1rem;                        
-                        }
-                        p{
-                            display:none;
-                        }
-                    }
-                }
-                &__article3 {
-                    height: 40vh;
-
-                    &--watermark {
-                        h3 {
-                            display: none;
-                        }
-    
-                        h4 {
-                            display: none;
-                        }
-    
-                        a {
-                            margin: 0;
-                            top: 1rem;
-                            left: 90vw;
-                        }
-                    }
-    
-                    &--text {
-                        width: 10rem;
-                        height: 2rem;
-                        h2 {
-                            display: none;
-                        }
-    
-                        h3 {
-                            display: none;
-                        }
-    
-                        p {
-                            display: block;
-                            text-align: center;
-                        }
-                    }
-    
-                    &--text:hover{
-                        width: 98%;
-                        height:6rem;
-                        h2 {
-                            display: block;
-                            font-family: $style-font;
-                            text-align: left;
-                            padding-left: 2rem;
-                            font-size: 3rem;
-                            font-weight: 10;
-                        }
-    
-                        h3 {
-                            display:block;
-                            font-size: 0.8rem;
-                            font-family: $style-font-second;
-                            margin:0;
-                            padding:0;
-                            padding-left:1rem;                        
-                        }
-                        p{
-                            display:none;
-                        }
+                    p {
+                        display: none;
                     }
                 }
             }
 
-            .living {
+            &__article2 {
                 height: 40vh;
-                margin-top: 30vh;
-                &__article1 {
-                    height: 40vh;
 
-                    &--watermark {
-                        h3 {
-                            display: none;
-                        }
-    
-                        h4 {
-                            display: none;
-                        }
-    
-                        a {
-                            margin: 0;
-                            top: 1rem;
-                            left: 90vw;
-                        }
+                &--watermark {
+                    h3 {
+                        display: none;
                     }
-    
-                    &--text {
-                        width: 10rem;
-                        height: 2rem;
-                        h2 {
-                            display: none;
-                        }
-    
-                        h3 {
-                            display: none;
-                        }
-    
-                        p {
-                            display: block;
-                            text-align: center;
-                        }
+
+                    h4 {
+                        display: none;
                     }
-    
-                    &--text:hover{
-                        width: 23rem;
-                        height:6rem;
-                        h2 {
-                            display: block;
-                            font-family: $style-font;
-                            text-align: left;
-                            padding-left: 2rem;
-                            font-size: 3rem;
-                            font-weight: 10;
-                        }
-    
-                        h3 {
-                            display:block;
-                            font-size: 0.8rem;
-                            font-family: $style-font-second;
-                            margin:0;
-                            padding:0;
-                            padding-left:1rem;                        
-                        }
-                        p{
-                            display:none;
-                        }
+
+                    a {
+                        margin: 0;
+                        top: 1rem;
+                        left: 90vw;
                     }
                 }
 
-                &__article2 {
-                    height: 40vh;
+                &--text {
+                    width: 10rem;
+                    height: 2rem;
 
-                    &--watermark {
-                        h3 {
-                            display: none;
-                        }
-    
-                        h4 {
-                            display: none;
-                        }
-    
-                        a {
-                            margin: 0;
-                            top: 1rem;
-                            left: 90vw;
-                        }
+                    h2 {
+                        display: none;
                     }
-    
-                    &--text {
-                        width: 10rem;
-                        height: 2rem;
-                        h2 {
-                            display: none;
-                        }
-    
-                        h3 {
-                            display: none;
-                        }
-    
-                        p {
-                            display: block;
-                            text-align: center;
-                        }
+
+                    h3 {
+                        display: none;
                     }
-    
-                    &--text:hover{
-                        width: 23rem;
-                        height:6rem;
-                        h2 {
-                            display: block;
-                            font-family: $style-font;
-                            text-align: left;
-                            padding-left: 2rem;
-                            font-size: 3rem;
-                            font-weight: 10;
-                        }
-    
-                        h3 {
-                            display:block;
-                            font-size: 0.8rem;
-                            font-family: $style-font-second;
-                            margin:0;
-                            padding:0;
-                            padding-left:1rem;                        
-                        }
-                        p{
-                            display:none;
-                        }
+
+                    p {
+                        display: block;
+                        text-align: center;
                     }
                 }
 
-                &__article3 {
-                    height: 40vh;
+                &--text:hover {
+                    width: 23rem;
+                    height: 6rem;
 
-                    &--watermark {
-                        h3 {
-                            display: none;
-                        }
-    
-                        h4 {
-                            display: none;
-                        }
-    
-                        a {
-                            margin: 0;
-                            top: 1rem;
-                            left: 90vw;
-                        }
+                    h2 {
+                        display: block;
+                        font-family: $style-font;
+                        text-align: left;
+                        padding-left: 2rem;
+                        font-size: 3rem;
+                        font-weight: 10;
                     }
-    
-                    &--text {
-                        width: 10rem;
-                        height: 2rem;
-                        h2 {
-                            display: none;
-                        }
-    
-                        h3 {
-                            display: none;
-                        }
-    
-                        p {
-                            display: block;
-                            text-align: center;
-                        }
+
+                    h3 {
+                        display: block;
+                        font-size: 0.8rem;
+                        font-family: $style-font-second;
+                        margin: 0;
+                        padding: 0;
+                        padding-left: 1rem;
                     }
-    
-                    &--text:hover{
-                        width: 23rem;
-                        height:6rem;
-                        h2 {
-                            display: block;
-                            font-family: $style-font;
-                            text-align: left;
-                            padding-left: 2rem;
-                            font-size: 3rem;
-                            font-weight: 10;
-                        }
-    
-                        h3 {
-                            display:block;
-                            font-size: 0.8rem;
-                            font-family: $style-font-second;
-                            margin:0;
-                            padding:0;
-                            padding-left:1rem;                        
-                        }
-                        p{
-                            display:none;
-                        }
+
+                    p {
+                        display: none;
                     }
                 }
             }
 
-            .kitchen {
+            &__article3 {
                 height: 40vh;
-                margin-top: 30vh;
-                &__article1 {
-                    height: 40vh;
 
-                    &--watermark {
-                        h3 {
-                            display: none;
-                        }
-    
-                        h4 {
-                            display: none;
-                        }
-    
-                        a {
-                            margin: 0;
-                            top: 1rem;
-                            left: 90vw;
-                        }
+                &--watermark {
+                    h3 {
+                        display: none;
                     }
-    
-                    &--text {
-                        width: 10rem;
-                        height: 2rem;
-                        h2 {
-                            display: none;
-                        }
-    
-                        h3 {
-                            display: none;
-                        }
-    
-                        p {
-                            display: block;
-                            text-align: center;
-                        }
+
+                    h4 {
+                        display: none;
                     }
-    
-                    &--text:hover{
-                        width: 23rem;
-                        height:6rem;
-                        h2 {
-                            display: block;
-                            font-family: $style-font;
-                            text-align: left;
-                            padding-left: 2rem;
-                            font-size: 3rem;
-                            font-weight: 10;
-                        }
-    
-                        h3 {
-                            display:block;
-                            font-size: 0.8rem;
-                            font-family: $style-font-second;
-                            margin:0;
-                            padding:0;
-                            padding-left:1rem;                        
-                        }
-                        p{
-                            display:none;
-                        }
+
+                    a {
+                        margin: 0;
+                        top: 1rem;
+                        left: 90vw;
                     }
                 }
 
-                &__article2 {
-                    height: 40vh;
+                &--text {
+                    width: 10rem;
+                    height: 2rem;
 
-                    &--watermark {
-                        h3 {
-                            display: none;
-                        }
-    
-                        h4 {
-                            display: none;
-                        }
-    
-                        a {
-                            margin: 0;
-                            top: 1rem;
-                            left: 90vw;
-                        }
+                    h2 {
+                        display: none;
                     }
-    
-                    &--text {
-                        width: 10rem;
-                        height: 2rem;
-                        h2 {
-                            display: none;
-                        }
-    
-                        h3 {
-                            display: none;
-                        }
-    
-                        p {
-                            display: block;
-                            text-align: center;
-                        }
+
+                    h3 {
+                        display: none;
                     }
-    
-                    &--text:hover{
-                        width: 23rem;
-                        height:6rem;
-                        h2 {
-                            display: block;
-                            font-family: $style-font;
-                            text-align: left;
-                            padding-left: 2rem;
-                            font-size: 3rem;
-                            font-weight: 10;
-                        }
-    
-                        h3 {
-                            display:block;
-                            font-size: 0.8rem;
-                            font-family: $style-font-second;
-                            margin:0;
-                            padding:0;
-                            padding-left:1rem;                        
-                        }
-                        p{
-                            display:none;
-                        }
+
+                    p {
+                        display: block;
+                        text-align: center;
                     }
                 }
 
-                &__article3 {
-                    height: 40vh;
+                &--text:hover {
+                    width: 98%;
+                    height: 6rem;
 
-                    &--watermark {
-                        h3 {
-                            display: none;
-                        }
-    
-                        h4 {
-                            display: none;
-                        }
-    
-                        a {
-                            margin: 0;
-                            top: 1rem;
-                            left: 90vw;
-                        }
+                    h2 {
+                        display: block;
+                        font-family: $style-font;
+                        text-align: left;
+                        padding-left: 2rem;
+                        font-size: 3rem;
+                        font-weight: 10;
                     }
-    
-                    &--text {
-                        width: 10rem;
-                        height: 2rem;
-                        h2 {
-                            display: none;
-                        }
-    
-                        h3 {
-                            display: none;
-                        }
-    
-                        p {
-                            display: block;
-                            text-align: center;
-                        }
+
+                    h3 {
+                        display: block;
+                        font-size: 0.8rem;
+                        font-family: $style-font-second;
+                        margin: 0;
+                        padding: 0;
+                        padding-left: 1rem;
                     }
-    
-                    &--text:hover{
-                        width: 23rem;
-                        height:6rem;
-                        h2 {
-                            display: block;
-                            font-family: $style-font;
-                            text-align: left;
-                            padding-left: 2rem;
-                            font-size: 3rem;
-                            font-weight: 10;
-                        }
-    
-                        h3 {
-                            display:block;
-                            font-size: 0.8rem;
-                            font-family: $style-font-second;
-                            margin:0;
-                            padding:0;
-                            padding-left:1rem;                        
-                        }
-                        p{
-                            display:none;
-                        }
+
+                    p {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .living {
+            height: 40vh;
+            margin-top: 30vh;
+
+            &__article1 {
+                height: 40vh;
+
+                &--watermark {
+                    h3 {
+                        display: none;
+                    }
+
+                    h4 {
+                        display: none;
+                    }
+
+                    a {
+                        margin: 0;
+                        top: 1rem;
+                        left: 90vw;
+                    }
+                }
+
+                &--text {
+                    width: 10rem;
+                    height: 2rem;
+
+                    h2 {
+                        display: none;
+                    }
+
+                    h3 {
+                        display: none;
+                    }
+
+                    p {
+                        display: block;
+                        text-align: center;
+                    }
+                }
+
+                &--text:hover {
+                    width: 23rem;
+                    height: 6rem;
+
+                    h2 {
+                        display: block;
+                        font-family: $style-font;
+                        text-align: left;
+                        padding-left: 2rem;
+                        font-size: 3rem;
+                        font-weight: 10;
+                    }
+
+                    h3 {
+                        display: block;
+                        font-size: 0.8rem;
+                        font-family: $style-font-second;
+                        margin: 0;
+                        padding: 0;
+                        padding-left: 1rem;
+                    }
+
+                    p {
+                        display: none;
+                    }
+                }
+            }
+
+            &__article2 {
+                height: 40vh;
+
+                &--watermark {
+                    h3 {
+                        display: none;
+                    }
+
+                    h4 {
+                        display: none;
+                    }
+
+                    a {
+                        margin: 0;
+                        top: 1rem;
+                        left: 90vw;
+                    }
+                }
+
+                &--text {
+                    width: 10rem;
+                    height: 2rem;
+
+                    h2 {
+                        display: none;
+                    }
+
+                    h3 {
+                        display: none;
+                    }
+
+                    p {
+                        display: block;
+                        text-align: center;
+                    }
+                }
+
+                &--text:hover {
+                    width: 23rem;
+                    height: 6rem;
+
+                    h2 {
+                        display: block;
+                        font-family: $style-font;
+                        text-align: left;
+                        padding-left: 2rem;
+                        font-size: 3rem;
+                        font-weight: 10;
+                    }
+
+                    h3 {
+                        display: block;
+                        font-size: 0.8rem;
+                        font-family: $style-font-second;
+                        margin: 0;
+                        padding: 0;
+                        padding-left: 1rem;
+                    }
+
+                    p {
+                        display: none;
+                    }
+                }
+            }
+
+            &__article3 {
+                height: 40vh;
+
+                &--watermark {
+                    h3 {
+                        display: none;
+                    }
+
+                    h4 {
+                        display: none;
+                    }
+
+                    a {
+                        margin: 0;
+                        top: 1rem;
+                        left: 90vw;
+                    }
+                }
+
+                &--text {
+                    width: 10rem;
+                    height: 2rem;
+
+                    h2 {
+                        display: none;
+                    }
+
+                    h3 {
+                        display: none;
+                    }
+
+                    p {
+                        display: block;
+                        text-align: center;
+                    }
+                }
+
+                &--text:hover {
+                    width: 23rem;
+                    height: 6rem;
+
+                    h2 {
+                        display: block;
+                        font-family: $style-font;
+                        text-align: left;
+                        padding-left: 2rem;
+                        font-size: 3rem;
+                        font-weight: 10;
+                    }
+
+                    h3 {
+                        display: block;
+                        font-size: 0.8rem;
+                        font-family: $style-font-second;
+                        margin: 0;
+                        padding: 0;
+                        padding-left: 1rem;
+                    }
+
+                    p {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .kitchen {
+            height: 40vh;
+            margin-top: 30vh;
+
+            &__article1 {
+                height: 40vh;
+
+                &--watermark {
+                    h3 {
+                        display: none;
+                    }
+
+                    h4 {
+                        display: none;
+                    }
+
+                    a {
+                        margin: 0;
+                        top: 1rem;
+                        left: 90vw;
+                    }
+                }
+
+                &--text {
+                    width: 10rem;
+                    height: 2rem;
+
+                    h2 {
+                        display: none;
+                    }
+
+                    h3 {
+                        display: none;
+                    }
+
+                    p {
+                        display: block;
+                        text-align: center;
+                    }
+                }
+
+                &--text:hover {
+                    width: 23rem;
+                    height: 6rem;
+
+                    h2 {
+                        display: block;
+                        font-family: $style-font;
+                        text-align: left;
+                        padding-left: 2rem;
+                        font-size: 3rem;
+                        font-weight: 10;
+                    }
+
+                    h3 {
+                        display: block;
+                        font-size: 0.8rem;
+                        font-family: $style-font-second;
+                        margin: 0;
+                        padding: 0;
+                        padding-left: 1rem;
+                    }
+
+                    p {
+                        display: none;
+                    }
+                }
+            }
+
+            &__article2 {
+                height: 40vh;
+
+                &--watermark {
+                    h3 {
+                        display: none;
+                    }
+
+                    h4 {
+                        display: none;
+                    }
+
+                    a {
+                        margin: 0;
+                        top: 1rem;
+                        left: 90vw;
+                    }
+                }
+
+                &--text {
+                    width: 10rem;
+                    height: 2rem;
+
+                    h2 {
+                        display: none;
+                    }
+
+                    h3 {
+                        display: none;
+                    }
+
+                    p {
+                        display: block;
+                        text-align: center;
+                    }
+                }
+
+                &--text:hover {
+                    width: 23rem;
+                    height: 6rem;
+
+                    h2 {
+                        display: block;
+                        font-family: $style-font;
+                        text-align: left;
+                        padding-left: 2rem;
+                        font-size: 3rem;
+                        font-weight: 10;
+                    }
+
+                    h3 {
+                        display: block;
+                        font-size: 0.8rem;
+                        font-family: $style-font-second;
+                        margin: 0;
+                        padding: 0;
+                        padding-left: 1rem;
+                    }
+
+                    p {
+                        display: none;
+                    }
+                }
+            }
+
+            &__article3 {
+                height: 40vh;
+
+                &--watermark {
+                    h3 {
+                        display: none;
+                    }
+
+                    h4 {
+                        display: none;
+                    }
+
+                    a {
+                        margin: 0;
+                        top: 1rem;
+                        left: 90vw;
+                    }
+                }
+
+                &--text {
+                    width: 10rem;
+                    height: 2rem;
+
+                    h2 {
+                        display: none;
+                    }
+
+                    h3 {
+                        display: none;
+                    }
+
+                    p {
+                        display: block;
+                        text-align: center;
+                    }
+                }
+
+                &--text:hover {
+                    width: 23rem;
+                    height: 6rem;
+
+                    h2 {
+                        display: block;
+                        font-family: $style-font;
+                        text-align: left;
+                        padding-left: 2rem;
+                        font-size: 3rem;
+                        font-weight: 10;
+                    }
+
+                    h3 {
+                        display: block;
+                        font-size: 0.8rem;
+                        font-family: $style-font-second;
+                        margin: 0;
+                        padding: 0;
+                        padding-left: 1rem;
+                    }
+
+                    p {
+                        display: none;
                     }
                 }
             }
         }
     }
 
-        .section3 {
-            width: 100vw;
-            height: 100vh;
 
-            &__content {
-                div h2 {
-                    margin-top: 9vh;
-                    font-size: 5rem;
-                }
+    .section3 {
+        width: 100vw;
+        height: 100vh;
 
-                .info {
-                    top: 30vh;
+        &__content {
+            div h2 {
+                margin-top: 9vh;
+                font-size: 5rem;
+            }
 
-                    h4 {
-                        font-size: 4vw;
-                    }
+            .info {
+                top: 30vh;
+
+                h4 {
+                    font-size: 4vw;
                 }
             }
         }
+    }
 
-        .section-4 {
-            width: 100vw;
-            height: 100vh;
-            grid-template-columns: 100vw;
-            grid-template-rows: 40vh;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-        }
-        .background-image {
-            color: $style-font;
-            width: auto;
-            height: 70vh;
-            background-position: 50% 50%;
-            margin-top: -20vh;
-        }
+    .section-4 {
+        width: 100vw;
+        height: 100vh;
+        grid-template-columns: 100vw;
+        grid-template-rows: 40vh;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
 
-        .background-image h2 {
-            position: absolute;
-            margin: 0 !important;
-            padding: 0;
-            top: 50vh;
-            font-family: $style-font;
-            font-size: 20vw !important;
-            z-index: 1
-        }
+    .background-image {
+        color: $style-font;
+        width: auto;
+        height: 70vh;
+        background-position: 50% 50%;
+        margin-top: -20vh;
+    }
 
-        .background-black h3 {
-            position: absolute;
-            margin: 0;
-            padding: 0;
-            top: 10vh !important;
-            width: 90vw !important;
-            text-align: center;
-            font-family: $style-font-second;
-            font-size: 12px !important;
-            color: $main_color;
-            z-index: 1;
-        }
-        .social {
-            position: absolute;
-            width: 100vw !important;
-            align-items: center;
-            margin-top: 1rem;
-            top: 40vh;
-        }
+    .background-image h2 {
+        position: absolute;
+        margin: 0 !important;
+        padding: 0;
+        top: 50vh;
+        font-family: $style-font;
+        font-size: 20vw !important;
+        z-index: 1
+    }
 
-        .social-icons img {
-            margin: 1rem;
-            width: 1.4rem;
-            height: auto;
-        }
+    .background-black h3 {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        top: 10vh !important;
+        width: 90vw !important;
+        text-align: center;
+        font-family: $style-font-second;
+        font-size: 12px !important;
+        color: $main_color;
+        z-index: 1;
+    }
 
-        /*footer*/
-        .footer,
-        h4 {
-            font-size: 0.8rem;
-        }
+    .social {
+        position: absolute;
+        width: 100vw !important;
+        align-items: center;
+        margin-top: 1rem;
+        top: 40vh;
+    }
+
+    .social-icons img {
+        margin: 1rem;
+        width: 1.4rem;
+        height: auto;
+    }
+
+    /*footer*/
+    .footer,
+    h4 {
+        font-size: 0.8rem;
+    }
+}
