@@ -178,7 +178,7 @@ header .nav__bar__list a:hover {
 .section2__content .content-text {
   font-family: Allura;
   font-weight: normal;
-  font-size: 12vw;
+  font-size: 9vw;
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 3rem;
@@ -234,7 +234,7 @@ header .nav__bar__list a:hover {
 }
 
 .section2__content .category a div h3 {
-  font-size: 7vw;
+  font-size: 5vw;
 }
 
 .section3 {
@@ -718,6 +718,7 @@ header .nav__bar__list a:hover {
   }
   .section2__content .category .category-3 div img {
     margin-top: -2rem;
+    padding-bottom: 0rem;
     width: 70%;
     height: auto;
     margin: 0;
@@ -1271,11 +1272,11 @@ header .nav__bar__list a:hover {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 1rem;
-    top: 40vh;
+    top: 40vh !important;
   }
   .social-icons img {
     margin: 1rem;
-    width: 1.4rem;
+    width: 1.4rem !important;
     height: auto;
   }
   /*footer*/

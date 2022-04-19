@@ -145,6 +145,7 @@
                     div {
                         img {
                             margin-top: -2rem;
+                            padding-bottom:0rem;
                             width: 70%;
                             height: auto;
                             margin: 0;
@@ -844,12 +845,12 @@
         width: 100vw !important;
         align-items: center;
         margin-top: 1rem;
-        top: 40vh;
+        top: 40vh!important;
     }
 
     .social-icons img {
         margin: 1rem;
-        width: 1.4rem;
+        width: 1.4rem!important;
         height: auto;
     }
 
