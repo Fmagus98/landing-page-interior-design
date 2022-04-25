@@ -1,6 +1,7 @@
 
 .section3 {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/services.avif);
+    display:block;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/services.avif);
     color: $main_color;
     width: 100vw;
     height: 100vh;

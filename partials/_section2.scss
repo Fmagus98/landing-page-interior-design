@@ -1,6 +1,6 @@
 
 .section2 {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/living-1.avif);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/living-1.avif);
     color: $main_color;
     width: 100vw;
     height: 100vh;
@@ -8,64 +8,51 @@
     background-size: cover;
 
     &__content {
-        .content-text {
-            font-family: $style-font;
-            font-weight: normal;
-            font-size: 9vw;
-            text-align: center;
-            padding-top: 2rem;
-            padding-bottom: 3rem;
+        width: 100vw;
+        &--text {
+            @extend %content--text;
         }
 
-        .category {
-            display: grid;
-            grid-template-columns: 30% 30% 30%;
-            width: 100vw;
-            align-items: center;
-            margin: auto;
-            margin-top: -2rem;
-
-            .category-1,
-            .category-2,
-            .category-3 {
-                text-align: center;
-                margin-left: 15%;
-                margin-right: 5%;
-                background-color: rgba(0, 0, 0, 0.5);
-                border-radius: 15px;
-            }
-
-            .category-1:hover,
-            .category-2:hover,
-            .category-3:hover {
+        
+        &__category {
+            @extend %category-grid;
+            &-1{
+                @extend %category-a;
+                &:hover{
                 opacity: 0.9;
-            }
+                }
+                img{
+                    @extend %category-img;
+                }
+                h3{
+                    font-size:5vw;
+                }
 
-            .category-3 {
-                img {
-                    padding-top: 1rem;
-                    padding-top: 1rem;
+            }
+            &-2{
+                @extend %category-a;
+                &:hover{
+                    opacity: 0.9;
+                }
+                img{
+                    @extend %category-img;
+                }
+                h3{
+                    font-size:5vw;
                 }
             }
-
-            a {
-                width: 80%;
-                height: 70%;
-                font-size: 4rem;
-                font-family: $style-font;
-                font-weight: 10;
-                color: $main_color;
-                text-decoration: none;
-                margin: 10vh;
-
-                div {
-                    img {
-                        height: 20vh;
-                    }
-
-                    h3 {
-                        font-size: 5vw;
-                    }
+            &-3{
+                @extend %category-a;
+                &:hover{
+                    opacity: 0.9;
+                }
+                img{
+                    @extend %category-img;
+                    margin-top: 1rem;
+                }
+                h3{
+                    font-size:5vw;
+                    padding-top: 1vw;
                 }
             }
         }

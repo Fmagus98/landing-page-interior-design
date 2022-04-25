@@ -1,10 +1,9 @@
 header {
     position: fixed;
-    top: 20%;
+    top: 40%;
     left: -1%;
     font-size: 15px;
     list-style-type: none;
-    text-align: none;
     white-space: nowrap;
     z-index: 1;
     background-color: rgba(19, 9, 9, 0.4);
@@ -17,9 +16,9 @@ header {
                 display: block;
                 position: relative;
                 margin: 20px;
-                margin-left: 0px;
+                margin-left: -10px;
                 height: 100%;
-                text-align: start;
+                text-align: center;
                 font-family: $style-font-second;
             }
 

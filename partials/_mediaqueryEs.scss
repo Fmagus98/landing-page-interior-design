@@ -1,0 +1,17 @@
+@import "../partials/_mediaquery";
+
+@media screen and (max-width:420px) {
+    header {
+        .nav__bar ul {
+            grid-template-columns: 17% 20% 24% 26.5% 13.5%;
+        }
+    }
+
+    .section2 {
+        &__content {
+            &--text {
+                font-size: 10vw;
+            }
+        }
+    }
+}
