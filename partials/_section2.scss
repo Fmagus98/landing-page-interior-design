@@ -19,7 +19,7 @@
             &-1{
                 @extend %category-a;
                 &:hover{
-                opacity: 0.9;
+                    @extend %hover;
                 }
                 img{
                     @extend %category-img;
@@ -32,7 +32,7 @@
             &-2{
                 @extend %category-a;
                 &:hover{
-                    opacity: 0.9;
+                    @extend %hover;
                 }
                 img{
                     @extend %category-img;
@@ -44,7 +44,7 @@
             &-3{
                 @extend %category-a;
                 &:hover{
-                    opacity: 0.9;
+                    @extend %hover;
                 }
                 img{
                     @extend %category-img;

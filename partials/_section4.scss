@@ -54,6 +54,9 @@
             &-icons img {
                 margin: 1rem;
                 width: 3vw;
+                &:hover{
+                @extend %hover;
+                }
             }
         }
     }

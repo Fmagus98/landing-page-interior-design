@@ -36,6 +36,9 @@
 
                 a {
                     @extend %article-a;
+                    &:hover{
+                        @extend %hover;
+                    }
                 }
             }
 
@@ -81,6 +84,9 @@
 
                 a {
                     @extend %article-a;
+                    &:hover{
+                        @extend %hover;
+                    }
                 }
             }
 
@@ -126,6 +132,9 @@
 
                 a {
                     @extend %article-a;
+                    &:hover{
+                        @extend %hover;
+                    }
                 }
             }
 
@@ -180,6 +189,9 @@
 
                 a {
                     @extend %article-a;
+                    &:hover{
+                        @extend %hover;
+                    }
                 }
             }
 
@@ -223,6 +235,9 @@
 
                 a {
                     @extend %article-a;
+                    &:hover{
+                        @extend %hover;
+                    }
                 }
             }
 
@@ -266,6 +281,9 @@
 
                 a {
                     @extend %article-a;
+                    &:hover{
+                        @extend %hover;
+                    }
                 }
             }
 
@@ -319,6 +337,9 @@
 
                 a {
                     @extend %article-a;
+                    &:hover{
+                        @extend %hover;
+                    }
                 }
             }
 
@@ -362,6 +383,9 @@
 
                 a {
                     @extend %article-a;
+                    &:hover{
+                        @extend %hover;
+                    }
                 }
             }
 
@@ -405,6 +429,9 @@
 
                 a {
                     @extend %article-a;
+                    &:hover{
+                        @extend %hover;
+                    }
                 }
             }
 

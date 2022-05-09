@@ -35,6 +35,14 @@
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 15px;
+  color: white;
+}
+
+.section2__content__category-1:hover, .section2__content__category-2:hover, .section2__content__category-3:hover, .section-4 .background-black .social-icons img:hover, #content-article .bedroom__article1--watermark a:hover, #content-article .bedroom__article2--watermark a:hover, #content-article .bedroom__article3--watermark a:hover, #content-article .living__article1--watermark a:hover, #content-article .living__article2--watermark a:hover, #content-article .living__article3--watermark a:hover, #content-article .kitchen__article1--watermark a:hover, #content-article .kitchen__article2--watermark a:hover, #content-article .kitchen__article3--watermark a:hover {
+  opacity: 0.9;
+  color: white;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
 }
 
 .section2__content__category-1 img, .section2__content__category-2 img, .section2__content__category-3 img {
@@ -226,24 +234,12 @@ header .nav__bar__list a:hover {
   width: 100vw;
 }
 
-.section2__content__category-1:hover {
-  opacity: 0.9;
-}
-
 .section2__content__category-1 h3 {
   font-size: 5vw;
 }
 
-.section2__content__category-2:hover {
-  opacity: 0.9;
-}
-
 .section2__content__category-2 h3 {
   font-size: 5vw;
-}
-
-.section2__content__category-3:hover {
-  opacity: 0.9;
 }
 
 .section2__content__category-3 img {

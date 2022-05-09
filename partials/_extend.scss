@@ -29,8 +29,13 @@
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 15px;
+    color:$main_color;
 }
-
+%hover{
+    opacity: 0.9;
+    color:$main_color;
+    transform: scale(1.03);
+}
 %category-img {
     position: relative;
     width: 70%;
