@@ -10,7 +10,7 @@
 <br>
 <h2>Content</h2>
 <ul>
-<li>translated in English and Spanish</li>
+<li>Translated in English and Spanish</li>
 <li>Responsive desing</li>
 <li>Metodology BEM</li>
 <li>SEO<li>
