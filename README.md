@@ -1,5 +1,6 @@
 # landing-page-interior-design
-<h1>This page simulates a company of interior designers where their projects are shown.<h1>
+<h1>Desing Inc<h1>
+<h3>This page simulates a company of interior designers where their projects are shown.<h3>
 <br>
 <h1>Built Using</h1>
 <ul>
