@@ -1,4 +1,3 @@
-# landing-page-interior-design
 <h1>Desing Inc<h1>
 <h3>This page simulates a company of interior designers where their projects are shown.<h3>
 <br>
@@ -16,4 +15,5 @@
 <li>Metodology BEM</li>
 <li>SEO<li>
 <l1>Bootstrap<l1>
+<l1>web budget (you will find this file in budget.pdf)<li>
 </ul>
