@@ -15,5 +15,5 @@
 <li>Metodology BEM</li>
 <li>SEO<li>
 <l1>Bootstrap<l1>
-<l1>web budget (you will find this file in budget.pdf)<li>
+<l1>web budget (you will find this file in budget.pdf)</li>
 </ul>
