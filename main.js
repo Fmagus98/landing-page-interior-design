@@ -60,6 +60,4 @@ for (i = 0; i < cancel.length; i++) {
   });
 }
 
-document.getElementById("proyect").onclick = function () {
-  proyect();
-}
+

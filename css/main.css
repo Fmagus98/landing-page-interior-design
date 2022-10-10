@@ -9,21 +9,17 @@
 }
 
 .section2__content__category {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 30% 30% 30%;
-      grid-template-columns: 30% 30% 30%;
+  grid-template-columns: 30% 30% 30%;
   grid-column-gap: 0.3rem;
   grid-row-gap: 4rem;
   width: 100vw;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin: 0;
   padding-left: 10%;
 }
 
-.section2__content__category-1, .section2__content__category-2, .section2__content__category-3 {
+.section2__content__category-3, .section2__content__category-2, .section2__content__category-1 {
   position: relative;
   width: 80%;
   height: auto;
@@ -38,27 +34,24 @@
   color: white;
 }
 
-.section2__content__category-1:hover, .section2__content__category-2:hover, .section2__content__category-3:hover, .section-4 .background-black .social-icons img:hover, #content-article .bedroom__article1--watermark a:hover, #content-article .bedroom__article2--watermark a:hover, #content-article .bedroom__article3--watermark a:hover, #content-article .living__article1--watermark a:hover, #content-article .living__article2--watermark a:hover, #content-article .living__article3--watermark a:hover, #content-article .kitchen__article1--watermark a:hover, #content-article .kitchen__article2--watermark a:hover, #content-article .kitchen__article3--watermark a:hover {
+#content-article .kitchen__article3--watermark a:hover, #content-article .kitchen__article2--watermark a:hover, #content-article .kitchen__article1--watermark a:hover, #content-article .living__article3--watermark a:hover, #content-article .living__article2--watermark a:hover, #content-article .living__article1--watermark a:hover, #content-article .bedroom__article3--watermark a:hover, #content-article .bedroom__article2--watermark a:hover, #content-article .bedroom__article1--watermark a:hover, .section-4 .background-black .social-icons img:hover, .section2__content__category-3:hover, .section2__content__category-2:hover, .section2__content__category-1:hover {
   opacity: 0.9;
   color: white;
-  -webkit-transform: scale(1.03);
-          transform: scale(1.03);
+  transform: scale(1.03);
 }
 
-.section2__content__category-1 img, .section2__content__category-2 img, .section2__content__category-3 img {
+.section2__content__category-3 img, .section2__content__category-2 img, .section2__content__category-1 img {
   position: relative;
   width: 70%;
 }
 
-#content-article .bedroom__article1--watermark, #content-article .bedroom__article2--watermark, #content-article .bedroom__article3--watermark, #content-article .living__article1--watermark, #content-article .living__article2--watermark, #content-article .living__article3--watermark, #content-article .kitchen__article1--watermark, #content-article .kitchen__article2--watermark, #content-article .kitchen__article3--watermark {
-  display: -ms-grid;
+#content-article .kitchen__article3--watermark, #content-article .kitchen__article2--watermark, #content-article .kitchen__article1--watermark, #content-article .living__article3--watermark, #content-article .living__article2--watermark, #content-article .living__article1--watermark, #content-article .bedroom__article3--watermark, #content-article .bedroom__article2--watermark, #content-article .bedroom__article1--watermark {
   display: grid;
-  -ms-grid-columns: 20% 10%;
-      grid-template-columns: 20% 10%;
+  grid-template-columns: 20% 10%;
   padding-top: 1rem;
 }
 
-#content-article .bedroom__article1, #content-article .bedroom__article2, #content-article .bedroom__article3, #content-article .living__article1, #content-article .living__article2, #content-article .living__article3, #content-article .kitchen__article1, #content-article .kitchen__article2, #content-article .kitchen__article3 {
+#content-article .kitchen__article3, #content-article .kitchen__article2, #content-article .kitchen__article1, #content-article .living__article3, #content-article .living__article2, #content-article .living__article1, #content-article .bedroom__article3, #content-article .bedroom__article2, #content-article .bedroom__article1 {
   color: white;
   width: 100vw;
   height: 100vh;
@@ -66,25 +59,25 @@
   background-size: cover;
 }
 
-#content-article .bedroom .prev, #content-article .living .prev, #content-article .kitchen .prev {
+#content-article .kitchen .prev, #content-article .living .prev, #content-article .bedroom .prev {
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 5px;
   width: 3rem;
   top: 40vh;
-  left: 5vw;
+  left: 1vw;
   height: 3rem;
 }
 
-#content-article .bedroom .next, #content-article .living .next, #content-article .kitchen .next {
+#content-article .kitchen .next, #content-article .living .next, #content-article .bedroom .next {
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 5px;
   width: 3rem;
   top: 40vh;
-  left: 90vw;
+  left: 95vw;
   height: 3rem;
 }
 
-#content-article .bedroom__article1--text, #content-article .bedroom__article2--text, #content-article .bedroom__article3--text, #content-article .living__article1--text, #content-article .living__article2--text, #content-article .living__article3--text, #content-article .kitchen__article1--text, #content-article .kitchen__article2--text, #content-article .kitchen__article3--text {
+#content-article .kitchen__article3--text, #content-article .kitchen__article2--text, #content-article .kitchen__article1--text, #content-article .living__article3--text, #content-article .living__article2--text, #content-article .living__article1--text, #content-article .bedroom__article3--text, #content-article .bedroom__article2--text, #content-article .bedroom__article1--text {
   bottom: 0.3rem;
   left: 0.3rem;
   width: 35rem;
@@ -95,7 +88,7 @@
   position: absolute;
 }
 
-#content-article .bedroom__article1--watermark h3, #content-article .bedroom__article2--watermark h3, #content-article .bedroom__article3--watermark h3, #content-article .living__article1--watermark h3, #content-article .living__article2--watermark h3, #content-article .living__article3--watermark h3, #content-article .kitchen__article1--watermark h3, #content-article .kitchen__article2--watermark h3, #content-article .kitchen__article3--watermark h3 {
+#content-article .kitchen__article3--watermark h3, #content-article .kitchen__article2--watermark h3, #content-article .kitchen__article1--watermark h3, #content-article .living__article3--watermark h3, #content-article .living__article2--watermark h3, #content-article .living__article1--watermark h3, #content-article .bedroom__article3--watermark h3, #content-article .bedroom__article2--watermark h3, #content-article .bedroom__article1--watermark h3 {
   padding-left: 0rem;
   font-family: Allura;
   font-size: 5rem;
@@ -103,7 +96,7 @@
   font-weight: 10;
 }
 
-#content-article .bedroom__article1--watermark h4, #content-article .bedroom__article2--watermark h4, #content-article .bedroom__article3--watermark h4, #content-article .living__article1--watermark h4, #content-article .living__article2--watermark h4, #content-article .living__article3--watermark h4, #content-article .kitchen__article1--watermark h4, #content-article .kitchen__article2--watermark h4, #content-article .kitchen__article3--watermark h4 {
+#content-article .kitchen__article3--watermark h4, #content-article .kitchen__article2--watermark h4, #content-article .kitchen__article1--watermark h4, #content-article .living__article3--watermark h4, #content-article .living__article2--watermark h4, #content-article .living__article1--watermark h4, #content-article .bedroom__article3--watermark h4, #content-article .bedroom__article2--watermark h4, #content-article .bedroom__article1--watermark h4 {
   top: 1rem;
   left: 60vw;
   font-size: 1.6rem;
@@ -111,26 +104,33 @@
   position: relative;
 }
 
-#content-article .bedroom__article1--watermark a, #content-article .bedroom__article2--watermark a, #content-article .bedroom__article3--watermark a, #content-article .living__article1--watermark a, #content-article .living__article2--watermark a, #content-article .living__article3--watermark a, #content-article .kitchen__article1--watermark a, #content-article .kitchen__article2--watermark a, #content-article .kitchen__article3--watermark a {
-  font-size: 2rem;
+#content-article .kitchen__article3--watermark a, #content-article .kitchen__article2--watermark a, #content-article .kitchen__article1--watermark a, #content-article .living__article3--watermark a, #content-article .living__article2--watermark a, #content-article .living__article1--watermark a, #content-article .bedroom__article3--watermark a, #content-article .bedroom__article2--watermark a, #content-article .bedroom__article1--watermark a {
+  font-size: 1.7rem;
   position: absolute;
   top: 0.3rem;
-  left: 95vw;
+  left: 96vw;
   color: white;
   text-decoration: none;
   opacity: 0.7;
-  width: 2rem;
+  width: 2.6rem;
+  height: 2.6rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
 }
 
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
   width: 100vw;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 header {
@@ -145,7 +145,6 @@ header {
   border-radius: 9px;
   width: 6rem;
 }
-
 header .nav__bar__list li {
   display: block;
   position: relative;
@@ -155,12 +154,10 @@ header .nav__bar__list li {
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
 header .nav__bar__list a {
   color: white;
   text-decoration: none;
 }
-
 header .nav__bar__list a:hover {
   border-color: white;
   border-bottom: solid;
@@ -169,7 +166,6 @@ header .nav__bar__list a:hover {
 
 .section1 {
   color: white;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.1)), color-stop(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0))), url(../images/index.avif);
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(../images/index.avif);
   background-position: 50% 20%;
   width: 100vw;
@@ -177,13 +173,11 @@ header .nav__bar__list a:hover {
   overflow: hidden;
   background-size: cover;
 }
-
 .section1__content {
   width: 100%;
   margin: auto;
   margin-top: 2%;
 }
-
 .section1__content--border1 {
   border-bottom: solid;
   padding: 2px;
@@ -193,7 +187,6 @@ header .nav__bar__list a:hover {
   padding-top: 5%;
   position: relative;
 }
-
 .section1__content--text1 {
   font-family: Allura;
   font-weight: normal;
@@ -202,7 +195,6 @@ header .nav__bar__list a:hover {
   margin: 20px auto 0;
   text-align: center;
 }
-
 .section1__content--text2 {
   margin: 20px auto 0;
   font-family: Allura;
@@ -210,7 +202,6 @@ header .nav__bar__list a:hover {
   font-size: 3rem;
   text-align: center;
 }
-
 .section1__content--border2 {
   border-bottom: solid;
   padding: 2px;
@@ -221,7 +212,6 @@ header .nav__bar__list a:hover {
 }
 
 .section2 {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/living-1.avif);
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/living-1.avif);
   color: white;
   width: 100vw;
@@ -229,23 +219,18 @@ header .nav__bar__list a:hover {
   background-position: 50% 20%;
   background-size: cover;
 }
-
 .section2__content {
   width: 100vw;
 }
-
 .section2__content__category-1 h3 {
   font-size: 5vw;
 }
-
 .section2__content__category-2 h3 {
   font-size: 5vw;
 }
-
 .section2__content__category-3 img {
   margin-top: 1rem;
 }
-
 .section2__content__category-3 h3 {
   font-size: 5vw;
   padding-top: 1vw;
@@ -253,7 +238,6 @@ header .nav__bar__list a:hover {
 
 .section3 {
   display: block;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url(../images/services.avif);
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/services.avif);
   color: white;
   width: 100vw;
@@ -261,15 +245,11 @@ header .nav__bar__list a:hover {
   background-position: 30%;
   background-size: cover;
 }
-
 .section3__content {
-  display: -ms-grid;
   display: grid;
   width: 100vw;
-  -ms-grid-columns: 40vw 60vw;
-      grid-template-columns: 40vw 60vw;
+  grid-template-columns: 40vw 60vw;
 }
-
 .section3__content div h2 {
   font-size: 10vw;
   font-family: Allura;
@@ -279,7 +259,6 @@ header .nav__bar__list a:hover {
   margin-top: 4rem;
   margin-left: 30%;
 }
-
 .section3__content .info {
   position: relative;
   top: 20vh;
@@ -290,36 +269,31 @@ header .nav__bar__list a:hover {
   height: auto;
   padding-bottom: 1rem;
 }
-
 .section3__content .info h4 {
-  font-size: 3vw;
+  font-size: 2rem;
   padding-top: 2rem;
   margin-left: 1rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .section-4 {
   background-image: url(../images/about.avif);
   background-color: rgba(0, 0, 0, 0.3);
-  display: -ms-grid;
   display: grid;
   width: 100vw;
   height: 100vh;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
   -o-object-fit: cover;
      object-fit: cover;
   background-position: 50% 20%;
   background-size: cover;
 }
-
 .section-4 .background-image {
   color: white;
   width: 100%;
   height: 100vh;
   background-position: 50% 50%;
 }
-
 .section-4 .background-image h2 {
   position: relative;
   top: 3rem;
@@ -329,7 +303,6 @@ header .nav__bar__list a:hover {
   font-size: 6rem;
   z-index: 1;
 }
-
 .section-4 .background-black {
   background-color: black;
   width: 100%;
@@ -337,7 +310,6 @@ header .nav__bar__list a:hover {
   opacity: 0.6;
   position: relative;
 }
-
 .section-4 .background-black h3 {
   display: block;
   position: absolute;
@@ -350,19 +322,16 @@ header .nav__bar__list a:hover {
   color: white;
   z-index: 1;
 }
-
 .section-4 .background-black .social {
   position: absolute;
   margin-top: 1rem;
   top: 80vh;
   width: 30vw;
 }
-
 .section-4 .background-black .social-icons img {
   margin: 1rem;
   width: 3vw;
 }
-
 #content-article {
   width: 100vw;
   height: 100vh;
@@ -372,20 +341,14 @@ header .nav__bar__list a:hover {
   margin: 0;
   padding: 0;
 }
-
 #content-article .bedroom {
   width: 100vw;
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 #content-article .bedroom__article1 {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/dormitorio-1.avif);
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/dormitorio-1.avif);
 }
-
 #content-article .bedroom__article1--text h2 {
   height: 3rem;
   font-family: Allura;
@@ -394,22 +357,17 @@ header .nav__bar__list a:hover {
   font-size: 4rem;
   font-weight: 10;
 }
-
 #content-article .bedroom__article1--text h3 {
   padding: 22px 0px 0px 22px;
   font-size: 1.3rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
 #content-article .bedroom__article1--text p {
   display: none;
 }
-
 #content-article .bedroom__article2 {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/dormitorio-2.avif);
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/dormitorio-2.avif);
 }
-
 #content-article .bedroom__article2--text h2 {
   height: 3rem;
   font-family: Allura;
@@ -418,22 +376,17 @@ header .nav__bar__list a:hover {
   font-size: 4rem;
   font-weight: 10;
 }
-
 #content-article .bedroom__article2--text h3 {
   padding: 22px 0px 0px 22px;
   font-size: 1.3rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
 #content-article .bedroom__article2--text p {
   display: none;
 }
-
 #content-article .bedroom__article3 {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/dormitorio-3.avif);
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/dormitorio-3.avif);
 }
-
 #content-article .bedroom__article3--text h2 {
   height: 3rem;
   font-family: Allura;
@@ -442,22 +395,17 @@ header .nav__bar__list a:hover {
   font-size: 4rem;
   font-weight: 10;
 }
-
 #content-article .bedroom__article3--text h3 {
   padding: 22px 0px 0px 22px;
   font-size: 1.3rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
 #content-article .bedroom__article3--text p {
   display: none;
 }
-
 #content-article .living__article1 {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/living-1.avif);
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/living-1.avif);
 }
-
 #content-article .living__article1--text h2 {
   height: 3rem;
   font-family: Allura;
@@ -466,22 +414,17 @@ header .nav__bar__list a:hover {
   font-size: 4rem;
   font-weight: 10;
 }
-
 #content-article .living__article1--text h3 {
   padding: 22px 0px 0px 22px;
   font-size: 1.3rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
 #content-article .living__article1--text p {
   display: none;
 }
-
 #content-article .living__article2 {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/living-2.avif);
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/living-2.avif);
 }
-
 #content-article .living__article2--text h2 {
   height: 3rem;
   font-family: Allura;
@@ -490,22 +433,17 @@ header .nav__bar__list a:hover {
   font-size: 4rem;
   font-weight: 10;
 }
-
 #content-article .living__article2--text h3 {
   padding: 22px 0px 0px 22px;
   font-size: 1.3rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
 #content-article .living__article2--text p {
   display: none;
 }
-
 #content-article .living__article3 {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/living-3.avif);
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/living-3.avif);
 }
-
 #content-article .living__article3--text h2 {
   height: 3rem;
   font-family: Allura;
@@ -514,22 +452,17 @@ header .nav__bar__list a:hover {
   font-size: 4rem;
   font-weight: 10;
 }
-
 #content-article .living__article3--text h3 {
   padding: 22px 0px 0px 22px;
   font-size: 1.3rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
 #content-article .living__article3--text p {
   display: none;
 }
-
 #content-article .kitchen__article1 {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/kitchen-1.avif);
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/kitchen-1.avif);
 }
-
 #content-article .kitchen__article1--text h2 {
   height: 3rem;
   font-family: Allura;
@@ -538,22 +471,17 @@ header .nav__bar__list a:hover {
   font-size: 4rem;
   font-weight: 10;
 }
-
 #content-article .kitchen__article1--text h3 {
   padding: 22px 0px 0px 22px;
   font-size: 1.3rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
 #content-article .kitchen__article1--text p {
   display: none;
 }
-
 #content-article .kitchen__article2 {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/kitchen-2.avif);
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/kitchen-2.avif);
 }
-
 #content-article .kitchen__article2--text h2 {
   height: 3rem;
   font-family: Allura;
@@ -562,22 +490,17 @@ header .nav__bar__list a:hover {
   font-size: 4rem;
   font-weight: 10;
 }
-
 #content-article .kitchen__article2--text h3 {
   padding: 22px 0px 0px 22px;
   font-size: 1.3rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
 #content-article .kitchen__article2--text p {
   display: none;
 }
-
 #content-article .kitchen__article3 {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/kitchen-3.avif);
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/kitchen-3.avif);
 }
-
 #content-article .kitchen__article3--text h2 {
   height: 3rem;
   font-family: Allura;
@@ -586,13 +509,11 @@ header .nav__bar__list a:hover {
   font-size: 4rem;
   font-weight: 10;
 }
-
 #content-article .kitchen__article3--text h3 {
   padding: 22px 0px 0px 22px;
   font-size: 1.3rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
 #content-article .kitchen__article3--text p {
   display: none;
 }
@@ -607,7 +528,6 @@ header .nav__bar__list a:hover {
   border-top: 1px;
   background-size: cover;
 }
-
 .footer h4 {
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -622,7 +542,6 @@ header .nav__bar__list a:hover {
     width: 77%;
   }
 }
-
 @media screen and (max-width: 540px) {
   .background-black h3 {
     font-size: 2.5vw !important;
@@ -631,9 +550,7 @@ header .nav__bar__list a:hover {
   .social {
     position: absolute;
     width: 100% !important;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     top: 80vh !important;
   }
   .social-icons img {
@@ -642,7 +559,6 @@ header .nav__bar__list a:hover {
     height: auto;
   }
 }
-
 @media screen and (max-width: 480px) {
   /*header*/
   header {
@@ -656,10 +572,8 @@ header .nav__bar__list a:hover {
     padding: 0;
   }
   header .nav__bar ul {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 20% 21% 24% 22.5% 13.5%;
-        grid-template-columns: 20% 21% 24% 22.5% 13.5%;
+    grid-template-columns: 20% 21% 24% 22.5% 13.5%;
     padding: 0;
     margin: 0;
     text-align: center;
@@ -674,7 +588,6 @@ header .nav__bar__list a:hover {
   .section1 {
     width: 100vw;
     height: 100vh;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.1)), color-stop(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0))), url(../images/index-tablet-mobile.avif);
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(../images/index-tablet-mobile.avif);
   }
   .section1__content {
@@ -699,12 +612,9 @@ header .nav__bar__list a:hover {
     font-size: 16vw;
   }
   .section2__content__category {
-    display: -ms-inline-grid;
     display: inline-grid;
-    -ms-grid-columns: 70%;
-        grid-template-columns: 70%;
-    -ms-grid-rows: 33% 33% 33%;
-        grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 70%;
+    grid-template-rows: 33% 33% 33%;
     grid-row-gap: 0.6rem;
     padding-left: 29%;
     height: 80%;
@@ -719,14 +629,16 @@ header .nav__bar__list a:hover {
     font-size: 9vw;
   }
   .prev {
-    width: 2rem !important;
-    height: 2rem !important;
+    width: 1.2rem !important;
+    height: 1.2rem !important;
     top: 15vh !important;
+    left: 2vw !important;
   }
   .next {
-    width: 2rem !important;
-    height: 2rem !important;
+    width: 1.2rem !important;
+    height: 1.2rem !important;
     top: 15vh !important;
+    left: 93vw !important;
   }
   #content-article {
     height: 100vh;
@@ -747,12 +659,15 @@ header .nav__bar__list a:hover {
   }
   #content-article .bedroom__article1--watermark a {
     margin: 0;
-    top: 1rem;
     left: 90vw;
+    font-size: 0.9rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
   #content-article .bedroom__article1--text {
     width: 10rem;
     height: 2rem;
+    padding: 0.2rem;
   }
   #content-article .bedroom__article1--text h2 {
     display: none;
@@ -798,12 +713,15 @@ header .nav__bar__list a:hover {
   }
   #content-article .bedroom__article2--watermark a {
     margin: 0;
-    top: 1rem;
     left: 90vw;
+    font-size: 0.9rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
   #content-article .bedroom__article2--text {
     width: 10rem;
     height: 2rem;
+    padding: 0.2rem;
   }
   #content-article .bedroom__article2--text h2 {
     display: none;
@@ -849,12 +767,15 @@ header .nav__bar__list a:hover {
   }
   #content-article .bedroom__article3--watermark a {
     margin: 0;
-    top: 1rem;
     left: 90vw;
+    font-size: 0.9rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
   #content-article .bedroom__article3--text {
     width: 10rem;
     height: 2rem;
+    padding: 0.2rem;
   }
   #content-article .bedroom__article3--text h2 {
     display: none;
@@ -904,12 +825,15 @@ header .nav__bar__list a:hover {
   }
   #content-article .living__article1--watermark a {
     margin: 0;
-    top: 1rem;
     left: 90vw;
+    font-size: 0.9rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
   #content-article .living__article1--text {
     width: 10rem;
     height: 2rem;
+    padding: 0.2rem;
   }
   #content-article .living__article1--text h2 {
     display: none;
@@ -955,12 +879,15 @@ header .nav__bar__list a:hover {
   }
   #content-article .living__article2--watermark a {
     margin: 0;
-    top: 1rem;
     left: 90vw;
+    font-size: 0.9rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
   #content-article .living__article2--text {
     width: 10rem;
     height: 2rem;
+    padding: 0.2rem;
   }
   #content-article .living__article2--text h2 {
     display: none;
@@ -1006,12 +933,15 @@ header .nav__bar__list a:hover {
   }
   #content-article .living__article3--watermark a {
     margin: 0;
-    top: 1rem;
     left: 90vw;
+    font-size: 0.9rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
   #content-article .living__article3--text {
     width: 10rem;
     height: 2rem;
+    padding: 0.2rem;
   }
   #content-article .living__article3--text h2 {
     display: none;
@@ -1061,12 +991,15 @@ header .nav__bar__list a:hover {
   }
   #content-article .kitchen__article1--watermark a {
     margin: 0;
-    top: 1rem;
     left: 90vw;
+    font-size: 0.9rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
   #content-article .kitchen__article1--text {
     width: 10rem;
     height: 2rem;
+    padding: 0.2rem;
   }
   #content-article .kitchen__article1--text h2 {
     display: none;
@@ -1112,12 +1045,15 @@ header .nav__bar__list a:hover {
   }
   #content-article .kitchen__article2--watermark a {
     margin: 0;
-    top: 1rem;
     left: 90vw;
+    font-size: 0.9rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
   #content-article .kitchen__article2--text {
     width: 10rem;
     height: 2rem;
+    padding: 0.2rem;
   }
   #content-article .kitchen__article2--text h2 {
     display: none;
@@ -1163,12 +1099,15 @@ header .nav__bar__list a:hover {
   }
   #content-article .kitchen__article3--watermark a {
     margin: 0;
-    top: 1rem;
     left: 90vw;
+    font-size: 0.9rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
   #content-article .kitchen__article3--text {
     width: 10rem;
     height: 2rem;
+    padding: 0.2rem;
   }
   #content-article .kitchen__article3--text h2 {
     display: none;
@@ -1220,10 +1159,8 @@ header .nav__bar__list a:hover {
   .section-4 {
     width: 100vw;
     height: 100vh;
-    -ms-grid-columns: 100vw;
-        grid-template-columns: 100vw;
-    -ms-grid-rows: 40vh;
-        grid-template-rows: 40vh;
+    grid-template-columns: 100vw;
+    grid-template-rows: 40vh;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -1255,9 +1192,7 @@ header .nav__bar__list a:hover {
   .social {
     position: absolute;
     width: 100vw !important;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     margin-top: 1rem;
     top: 40vh !important;
   }
@@ -1268,11 +1203,10 @@ header .nav__bar__list a:hover {
   }
   /*footer*/
   .footer,
-  h4 {
+h4 {
     font-size: 0.8rem;
   }
 }
-
 @media screen and (max-width: 320px) {
   header {
     height: 3rem;
@@ -1283,12 +1217,9 @@ header .nav__bar__list a:hover {
     font-size: 16vw;
   }
   .section2__content__category {
-    display: -ms-inline-grid;
     display: inline-grid;
-    -ms-grid-columns: 60%;
-        grid-template-columns: 60%;
-    -ms-grid-rows: 22vh 22vh 22vh;
-        grid-template-rows: 22vh 22vh 22vh;
+    grid-template-columns: 60%;
+    grid-template-rows: 22vh 22vh 22vh;
     grid-row-gap: 1rem;
     padding-left: 35%;
     height: 60vh;
@@ -1326,5 +1257,4 @@ header .nav__bar__list a:hover {
     margin-top: -2rem;
     font-size: 9vw;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
