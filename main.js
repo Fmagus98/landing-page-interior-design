@@ -42,6 +42,7 @@ function openKitchen() {
   kitchen.style.display = "block";
 }
 document.getElementById("category3").onclick = function () {
+  showContentArticle()
   openKitchen();
 }
 
